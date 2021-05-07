@@ -106,16 +106,16 @@ form.addEventListener('submit', (e) => {
     messages.push('Email is required')
   
   }
-  if (messages.length > 0) {
-    e.preventDefault()
-    errorElement.innerText = messages.join(', ')
-  }
+  // if (messages.length > 0) {
+  //   e.preventDefault()
+  //   errorElement.innerText = messages.join(', ')
+  // }
 
 });
 
 
 
-//hamburger buki 
+//hamburger 
 var menu = document.querySelector(".menu")
 var ham = document.querySelector(".ham")
 var xIcon = document.querySelector(".xIcon")
