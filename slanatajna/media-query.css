@@ -30,6 +30,21 @@
 .content img{
    width: 750px;
 }
+#myBtn{
+   right: 0.3rem;
+   width: 2.7rem;
+   height: 2.7rem;
+   border-radius: 20px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0px;
+   
+}
+#myBtn p{
+   margin: auto;
+   font-size: 1rem;
+}
 
  }
  
@@ -67,7 +82,23 @@
    .contact-paragraph p{
       text-align: center;
    }
-   
+
+   #myBtn{
+      right: 0.3rem;
+      width: 2.7rem;
+      height: 2.7rem;
+      border-radius: 20px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0px;
+      
+   }
+   #myBtn p{
+      margin: auto;
+      font-size: 1rem;
+   }
+ 
 
  }
  
@@ -204,13 +235,22 @@ transform: scale(1.1);
    width:2rem;
    height: 8rem;
 }
-
 #myBtn{
+   right: 0.3rem;
    width: 2.7rem;
    height: 2.7rem;
-   bottom: 0.5rem;
-   right: 0.3rem;
+   border-radius: 20px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0px;
+   
 }
+#myBtn p{
+   margin: auto;
+   font-size: 1rem;
+}
+
 
 
 .column{
@@ -301,17 +341,22 @@ transform: scale(1.1);
    .showMenu img{
       transform: translateY(15%);
     }
-
     #myBtn{
+      right: 0.3rem;
       width: 2rem;
       height: 2rem;
-      bottom: 0.5rem;
-      right: 0.3rem;
-      border-radius: 10px;
+      border-radius: 20px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0px;
+      
    }
    #myBtn p{
+      margin: auto;
       font-size: 1rem;
    }
+ 
    .parallax{
       display:flex;
       align-items: center;
@@ -412,6 +457,7 @@ transform: scale(1.1);
 }
 .content img{
    width: 500px;
+   
    
 }
 .popup .close-btn {
@@ -728,6 +774,24 @@ transform: scale(1.1);
    top:20%;
 }
 }
+@media all and (max-width: 375px){
+   .menuLink img{
+      top: 100px;
+   }
+   .menu li{
+      position:relative;
+      top: -20px;
+   }
+   /* .showMenu img{
+      position: absolute;
+      width: 3rem;
+      height: 3rem;
+      left: -3.7rem;
+      top: 5.5rem;
+      margin: auto 0;
+ 
+   } */
+}
 
 
 @media all and (max-width: 360px){
@@ -763,7 +827,7 @@ transform: scale(1.1);
       top: -3.5rem;
    }
    .showMenu {
-      transform: translateY(-5%);
+      transform: translateY(-20%);
     }
     .showMenu img{
        transform: translateY(4rem);

@@ -3,8 +3,8 @@
 mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
+// window.onscroll = function() {scrollFunction()};
+mybutton.style.display = "none";
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
@@ -18,6 +18,37 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+ menuImage = document.querySelector(".content").style;
+function moveMenu() {
+  if (document.documentElement.scrollTop > 1500) {
+    menuImage.position = "absolute";
+    menuImage.top = "250%";
+    
+    
+    // if(document.documentElement.scrollTop > 2000 && document.documentElement.scrollTop < 2900) {
+    //   menuImage.position = "absolute";
+    //   menuImage.top = "250%";
+    // }
+    // if(document.documentElement.scrollTop > 3000) {
+    //   menuImage.position = "absolute";
+    //   menuImage.top = "300%";
+    // }
+    // if (document.documentElement.scrollTop > 2600) {
+    //   menuImage.position = "absolute";
+    //   menuImage.top = "350%";
+    // }
+    // }if(document.documentElement.scrollTop > 3200 && document.documentElement.scrollTop < 3300) {
+    //   menuImage.position = "absolute";
+    //   menuImage.top = "400%";
+    // } 
+   
+  }  else {
+    menuImage.position = "absolute";
+    menuImage.top= "100%"
+  } 
+}
+// window.onscroll = moveMenu();
+window.onscroll = function () { moveMenu() , scrollFunction() };
 
 
 //SCROLL ANIMATIONS
