@@ -490,6 +490,28 @@ transform: scale(1.1);
    width: 350px;
    
 }
+
+.demo{
+   object-fit: fill;
+}
+.mySlides img{
+   object-fit:  cover;
+   width: 350px;
+   height: 350px;
+}
+.prev,
+.next{
+   top:30%;
+}
+.homeImg{
+   object-fit: fill;
+   width: 100%;
+   height: 400px;
+}
+.parallax{
+   object-fit: fill;
+   width: 100%;
+}
 }
  
  
@@ -582,7 +604,6 @@ transform: scale(1.1);
   }
   .cont2 p{
      position: relative ;
-     left: 10px;
      margin-left: 0.3rem;
      margin-right: 0.3rem;
      display: inline-block;
@@ -694,6 +715,18 @@ transform: scale(1.1);
    font-size:30px;
    line-height:15px;
 }
+.demo{
+   object-fit: fill;
+}
+.mySlides img{
+   object-fit:  cover;
+   width: 300px;
+   height: 300px;
+}
+.prev,
+.next{
+   top:20%;
+}
 }
 
 
@@ -722,4 +755,27 @@ transform: scale(1.1);
      text-align: center;
   }
     
+}
+
+@media all and (max-width: 320px){
+   .menuLink img{
+      position: absolute;
+      top: -3.5rem;
+   }
+   .showMenu {
+      transform: translateY(-5%);
+    }
+    .showMenu img{
+       transform: translateY(4rem);
+    }
+   .menu li{
+      position:relative;
+      top: -30px;
+   }
+   .parallax-lorem p{
+font-size: 0.7rem;
+   }
+   .cont2 p{
+      text-align: center;
+   }
 }
