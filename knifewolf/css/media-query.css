@@ -1,0 +1,632 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    body{
+        width:100%;
+        overflow-x: hidden;
+    }
+    .home{
+        height: 100vh;
+        /* background-image: url(/img/usamljeni_vuk_cover360x640.jpg); */
+       
+      
+    }
+    ul{
+        transition: transform 2s ease;
+    }
+    .slider{
+        max-width: 90%;
+    }
+    
+    .navlist li{
+        padding: 50px;
+        
+        /* background-color: var(--skobeloff); */
+        
+    }
+    .navlist a{
+        margin-top: 50px;
+        width:100px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 2s ease;
+    padding: 0;
+    }
+    ul{
+        transition: all 2s ease;
+    }
+    .navbar{
+       
+      width:100%;
+      position:absolute;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+    }
+    
+    
+    .navlist{
+      position: fixed;
+      background-color: var(--skobeloffLight);
+      list-style: none;
+      
+      transform: translateX(-100%);
+      transition: transform 2s ease;
+      /* display:flex;
+      flex-direction: column; */
+      /* justify-content:flex-start; */
+      text-align: center;
+      width:50%;
+      max-width: 250px;
+      min-width: 150px;
+      /* display:none; */
+      height:100vh;
+      opacity: 1;
+     z-index: 222;
+     margin-left: 0;
+    }
+    .navLinks{
+        display: flex;
+        flex-direction: column;
+      justify-content:center;
+      text-align: center;
+      
+      width: 50%;
+      height: 100%;
+      transform: translateX(-50%);
+      position: fixed;
+      
+    }
+    .xyWrapper{
+        display:block;
+    }
+    .x, .y{
+      font-size: 50px;
+      z-index: 5555555;
+      position:fixed;
+      right: 0;
+      margin: 5px 5px 0 0;
+      font-size: 30px;
+     
+    }
+    .x img, .y img{
+        display: block;
+    }
+    .showMenu{
+      position:fixed;
+      transform: translateX(0%);
+      
+      display:flex;
+      flex-direction: column;
+      justify-content:flex-start;
+      text-align: center;
+      /* transition: all 2s ease; */
+      width:50%;
+      opacity: 1;
+      z-index: 99;
+     
+      /* position:sticky; */
+      
+    }
+    .showMenu img{
+      margin: 0 auto;
+    
+    }
+    .logo{
+    margin: 0 auto;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    left: 25%;
+    top:0;
+
+    }
+    .aboutHeadImg{
+        background: black;
+        width: 100%;
+    }
+
+    
+
+    }
+    
+
+    
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 321px) {
+    /* Styles */
+   
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    }
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    }
+    
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    
+    }
+    @media only screen  and (max-device-width : 1224px) {
+        
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-device-width : 1224px) {
+    /* Styles */
+    
+    .home{
+        height: 100vh;
+    } 
+    .typewriter h1{
+        font-size: 2rem;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 30% }
+      }
+    .about{
+        height: 100vh;
+    }
+    .aboutWrapper h1{
+        
+        top:10%;
+        font-size: 3rem;
+    }
+    .aboutParagraph p{
+        padding: 30px;
+        font-size: 2rem;
+    }
+    .products{
+        height: 100vh;
+        padding-top: 30px;
+    }
+    .contact{
+        height: 100vh;
+        width: 100%;
+        /* padding-top: 30px; */
+    }
+    .contactWrapper{
+        background-color: var(--skobeloff);
+        /* background-color: #fff; */
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 0px 10px 10px;
+        padding-top: 50px;
+        position: relative;
+        
+        
+    }
+    .socials{
+        /* background-color: rgb(209, 124, 124); */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin:0 auto;
+        width: 85%;
+        height: 85%;
+    }
+    .socialsWrapper{
+        width: 85%;
+        background-color:var(--skobeloffLight);
+        height: 100%;
+        margin: 0 auto;
+        border-radius: 15px;
+        box-shadow: 0 1px 10px 1px rgb(66, 66, 66);
+
+    }
+    .socials_text{
+        padding: 50px;
+        height: 70%;
+        /* background-color: blue; */
+    }
+    .socials_text h1{
+        margin-bottom: 50px;
+        font-size: 2.5rem;
+    }
+    .socials_text p{
+        margin-top: 50px;
+        font-size: 1.5rem;
+    }
+    .socials_icons{
+          /* background-color: green; */
+        width: 100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30%;
+        /* background-color: #fff; */
+        position: relative;
+        bottom: 5%;        
+        /* position: relative; */
+    }
+
+    .socials_icons a:visited {
+        text-decoration: none; color:#25524f;
+    }
+    .socials_icons a:hover {
+        text-decoration: none; color:#25524f;
+    }
+    .socials_icons a:focus {
+        text-decoration: none; color:#25524f; 
+        }
+    .socials_icons a:link {
+        text-decoration: none; color:#25524f; 
+        }
+        
+    .facebookLink{
+        display:block;
+    width:100%;
+    height:100%;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    font-size: 15px;
+    }
+    .facebookBtn i{
+        /* background-color: red; */
+        position: relative;
+        top:50%;
+        left: 0%;
+        transform: translate(-0%,-50%);
+    }
+
+    .instagramLink{
+        display:block;
+    width:100%;
+    height:100%;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    font-size: 15px;
+    }
+    .instagramBtn i{
+        /* background-color: red; */
+        position: relative;
+        top:50%;
+        left: 0%;
+        transform: translate(-0%,-50%);
+    }
+
+    .callLink{
+        display:block;
+    width:100%;
+    height:100%;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    font-size: 15px;
+    }
+    .phoneBtn i{
+        /* background-color: red; */
+        position: relative;
+        top:50%;
+        left: 0%;
+        transform: translate(-0%,-50%);
+    }
+   
+   
+      .facebookBtn{
+          font-size: 15px;
+          width: 70px;
+          height: 70px;
+          cursor: pointer;
+          border: 5px solid #25524f;
+          background-color: var(--skobeloffLight);
+          transition: all .3s ease-in-out;
+          /* height: 10%;
+          width: 10%; */
+      }
+      .facebookBtn:hover{
+        transform: scale(1.2);
+        background-color: var(--skobeloff);
+      }
+      .instagramBtn:hover{
+        transform: scale(1.2);
+        background-color: var(--skobeloff);
+      }
+      .phoneBtn:hover{
+        transform: scale(1.2);
+        background-color: var(--skobeloff);
+      }
+      .instagramBtn{
+        font-size: 15px;
+        width: 70px;
+        height: 70px;
+        cursor: pointer;
+        border: 5px solid #25524f;
+        background-color: var(--skobeloffLight);
+        transition: all .3s ease-in-out;
+
+     
+      }
+      .phoneBtn{
+        font-size: 15px;
+        width: 70px;
+        height: 70px;
+        cursor: pointer;
+        border: 5px solid #25524f;
+        background-color: var(--skobeloffLight);
+        transition: all .3s ease-in-out;
+
+      }
+      
+      .form{
+          /* background-color: rgb(170, 33, 33); */
+          height: 85%;
+          /* font-size: 1; */
+          
+
+      }
+      .formWrapper{
+          width: 85%;
+          height: 100%;
+          background-color: var(--skobeloffLight);
+          /* background-color: #fff; */
+          /* margin: 0 auto; */
+          position: relative;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          border-radius: 15px;
+          box-shadow: 0 1px 10px 1px rgb(66, 66, 66);
+
+      }
+    form{
+        height:80%;
+          /* font-size: 1rem; */
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    label{
+        font-size: 1.6rem;
+    }
+    input{
+        border: 2px solid black;
+        height:3rem;
+        width: 60%;
+        font-size: 1rem;
+        outline: none;
+}
+     
+    textarea{
+        width: 60%;
+        height: 8rem;
+        margin-top: 10px;
+        background-color: var(--skobeloff);
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+        outline: none;
+        /* margin-top: 20px; */
+      }
+      ::placeholder {
+        
+           /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        font-size: 1rem;
+        opacity: 0.3; /* Firefox */
+      }
+      .formBtn{
+          width: 25%;
+        margin-top: 15px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+    
+      
+    .img_mobile{
+        display:none;
+    }
+    .img_full{
+        display: block;
+        height:100vh;
+        width: 100%;
+    }
+    
+    .slider{
+        /* padding-top: 20px; */
+        /* height: 80%; */
+        max-width: 80%;
+        width: 70%;
+        
+    }
+    
+    
+    .slider .slide img{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    object-fit: fill ;
+   aspect-ratio: 3/5;
+        
+    }
+    .navigation-visibility .slide-icon{
+        z-index: 999;
+        background: rgba(255, 255, 255, 0.5);
+        width: 40px;
+        height: 2vh;
+        position: relative;
+        bottom: 7.5vh;
+        /* transform: translateY(-50px); */
+        margin: 0 6px;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+      }
+      
+    .navigation{
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        
+      }
+      
+      .navlist{
+        box-shadow: 0 3px 15px 2px rgb(37, 37, 37);
+        /* position: relative; */
+          
+      }
+      .navLinks{
+          /* font-size: 1px; */
+          /* margin-left: 50px; */
+          position: relative;
+            margin-left: 100px;
+            bottom: calc(10vh/ 2 - 2*1.3rem)
+          /* background-color: red; */
+      }
+      .navLinks a{
+          font-size: 1.3rem;
+          /* background-color: #fff; */
+          position: relative;
+          
+          /* top: 50%;
+        transform: translate(-50%); */
+      }
+      .moreInfoBtn{
+          height: 8%;
+          width: 15%;
+          top:70%;
+          font-size: 1.3rem;
+          border: 1px solid white;
+      }
+      #topBtn{
+        position: fixed; 
+        bottom: 20px; 
+        right: 20px; 
+        z-index: 99; 
+        
+        background-color: #2a8560;
+        cursor: pointer;  
+        width: 40px;
+        height: 40px;
+        border:none;
+        box-shadow: 0 2px 10px 3px rgb(66, 66, 66);
+        border-radius: 8px; 
+        transition: all .3s ease;
+        color: var(--skobeloffLight)
+        
+}
+
+
+#topBtn:focus {
+outline:0;
+}
+      #topBtn:hover {
+        transform: translateY(-10px); 
+      }
+    
+    }
+    /* Large screens ----------- */
+    @media only screen  and (min-device-width : 1824px) {
+    /* Styles */
+   
+    }
+    
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    
+   
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    
+    }
+    
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
