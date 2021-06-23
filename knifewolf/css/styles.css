@@ -183,7 +183,7 @@ top:0;
     top:25%;
 }
 .parallax{
-  background-image: url('./img/takafumi-yamashita-uFuzc93FfN0-unsplash.jpg');
+  background-image: url('/img/takafumi-yamashita-uFuzc93FfN0-unsplash.jpg');
 width: 100%;
 /* Full height */
 height: 30vh; 
