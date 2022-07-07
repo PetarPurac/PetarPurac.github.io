@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="brand">
+        <h1 class="langchange title-1" data-key="title"></h1>
+        <h4 class="langchange title-2" data-key="greeting"></h4>
+        <h4 class="langchange title-3" data-key="subtitle"></h4>
+      </div>
+    </div>
+
+    <div>
+      <a href="about.html">to about</a>
+      <input
+        type="radio"
+        id="lang_en"
+        name="lang"
+        data-value="en"
+        onchange="changeLang('en');"
+      />
+      <label for="lang_en">Lang EN</label>
+
+      <input
+        type="radio"
+        id="lang_rs"
+        name="lang"
+        data-value="rs"
+        onchange="changeLang('rs');"
+      />
+      <label for="lang_rs">Lang rs</label>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
