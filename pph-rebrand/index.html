@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Logo Ipsum Website</title>
+    <meta name="description" content="Logo Ipsum Website">
+    <meta name="keywords" content="Logo Ipsum, Logo Ipsum Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Petar Purać">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   
+  <script defer src="js/app.js"></script><link href="css/app.css" rel="stylesheet"></head>
+  <body data-scroll-container>
+    <a href="#main-content" class="skip-link" aria-label="Skip from Navigation to Content">Skip to Content</a>
+    <header class="header js-header">
+      <div class="wrap wrap--sm">
+        <div class="header__wrap">
+          <a href="index.html" class="header__logo header__logo--white">
+            <img src="./images/content/logo-dark.png" alt="" class="header__logo-img">
+          </a>
+          <nav class="nav js-nav">
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <a href="index.html" class="nav__list-link nav-link-hover js-mobile-link langchange" data-key="navLink1">Pocetna</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#about" class="nav__list-link nav-link-hover js-mobile-link">O Nama</a>
+              </li>
+              <li class="nav__list-item nav__list-item--level">
+                <button class="nav__list-link nav-link-hover nav__list-btn js-nav-btn">Proizvodi</button>
+                <ul class="nav__list-level js-nav-level">
+                  <li class="nav__list-item">
+                    <a class="nav__list-link nav-link-hover js-mobile-link" href="sour-cherry.html">Visnja</a>
+                  </li>
+                  <li class="nav__list-item">
+                    <a class="nav__list-link nav-link-hover js-mobile-link" href="pepper.html">Paprika</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__list-item">
+                <a href="production.html" class="nav__list-link nav-link-hover js-mobile-link">Proizvodnja</a>
+              </li>
+            </ul>
+            <div class="header__cta header__cta--mobile">
+              <a href="#contact" class="header__cta-btn cta cta--white js-mobile-link">Kontakt</a>
+              <button class="header__langs"></button>
+              <div class="langs">
+                <input
+                  type="radio"
+                  id="lang_en"
+                  name="lang"
+                  data-value="en"
+                  class="inputEn lang__input active"
+                />
+                <!-- <label for="lang_en">Lang EN</label> -->
+                <input
+                class="inputRs lang__input"
+                  type="radio"
+                  id="lang_rs"
+                  name="lang"
+                  data-value="rs"
+                />
+                <!-- <label for="lang_rs">Lang rs</label> -->
+                </div>
+            </div>
+          </nav>
+          <div class="header__cta header__cta--desktop">
+            <a href="#contact" class="header__cta-btn cta cta--white">Kontakt</a>
+            <button class="header__langs js-header-langs"></button>
+            <div class="langs js-langs">
+              <div class="lang-holder">
+                <input
+                type="radio"
+                id="lang_en2"
+                name="lang"
+                data-value="en"
+                class="inputEn lang__input active"
+                />
+                <label for="lang_en2" class="lang__input-label active">EN</label>
+              </div>
+              <div class="lang-holder">
+                <input
+                class="inputRs lang__input"
+                type="radio"
+                id="lang_rs2"
+                name="lang"
+                data-value="rs"
+                />
+                <label for="lang_rs2" class="lang__input-label">RS</label>
+              </div>
+              </div>
+          </div>
+          <button type="button" class="header__hamburger js-hamburger">
+            <svg class="ham hamRotate ham8 js-hamburger-icon" viewBox="0 0 100 100" width="50">
+              <path
+                    class="line top"
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+              <path
+                    class="line middle"
+                    d="m 30,50 h 40" />
+              <path
+                    class="line bottom"
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main js-main" id="main-content">
+      <section class="banner">
+        <div class="banner__wrap">
+          <!-- <div class="wrap wrap--sm"> -->
+            <div class="banner__swiper js-banner-swiper">
+              <div class="banner__swiper-wrap swiper-wrapper">
+                <div class="banner__content swiper-slide">
+                  <div class="wrap wrap--sm">
+                    <span class="banner__tag">Dobrodošli!</span>
+                    <div style="overflow:hidden">
+                      <h1 class="banner__title langchange" data-key="bannerHeading">
+                        <span>Podrum Palić Hladnjača</span>
+                      </h1>
+                    </div>
+                    <div style="overflow:hidden">
+                      <p class="banner__text">Neki uvodni tekst o proizvodima koje držite. Neki uvodni tekst o proizvodima koje držite. </p>
+                    </div>
+                    <div style="overflow:hidden">
+                      <a href="#products" class=" banner__link cta cta--white cta--arrow">Our Products <span class="icon"></span></a>
+                    </div>
+                  </div>
+                  <div class="banner__img">
+                    <img class="banner__img-item" src="./images/content/hero__img2.png" alt="cold storage serbia palic">
+                  </div>
+                </div>
+                <div class="banner__content swiper-slide">
+                  <div class="wrap wrap--sm">
+                  <span class="banner__tag">Dobrodošli!</span>
+                  <div style="overflow:hidden">
+                    <h1 class="banner__title langchange" data-key="bannerHeading">
+                      <span>Podrum Palić Hladnjača</span>
+                    </h1>
+                  </div>
+                  <div style="overflow:hidden">
+                    <p class="banner__text">Neki uvodni tekst o proizvodima koje držite. Neki uvodni tekst o proizvodima koje držite. </p>
+                  </div>
+                  <div style="overflow:hidden">
+                    <a href="#products" class="banner__link cta cta--white cta--arrow">Our Products <span class="icon"></span></a>
+                  </div>
+                </div>
+                  <div class="banner__img">
+                    <img class="banner__img-item" src="./images/content/PAPRIKA_PRODUCT.png" alt="cold storage serbia palic">
+                  </div>
+                </div>
+                <div class="banner__content swiper-slide">
+                  <div class="wrap wrap--sm">
+                  <span class="banner__tag">Dobrodošli!</span>
+                  <div style="overflow:hidden">
+                    <h1 class="banner__title langchange" data-key="bannerHeading">
+                      <span>Podrum Palić Hladnjača</span>
+                    </h1>
+                  </div>
+                  <div style="overflow:hidden">
+                    <p class="banner__text">Neki uvodni tekst o proizvodima koje držite. Neki uvodni tekst o proizvodima koje držite. </p>
+                  </div>
+                  <div style="overflow:hidden">
+                    <a href="#products" class="banner__link cta cta--white cta--arrow">Our Products <span class="icon"></span></a>
+                  </div>
+                  </div>
+                  <div class="banner__img">
+                    <img class="banner__img-item" src="./images/content/sour-cherry.png" alt="cold storage serbia palic">
+                  </div>
+                </div>
+              </div>
+              <div class="banner__swiper-controls">
+                <div class="swiper-button-prev js-swiper-button-prev"></div>
+                <div class="swiper-button-next js-swiper-button-next"></div>
+                <div class="swiper-pagination js-swiper-pagination"></div>
+              </div>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="banner__cta">
+          <a href="sour-cherry.html" class="banner__cta-btn banner__cta-btn--first" >
+            <img class="banner__cta-img" src="./images/content/cherry__gallery1.jpg" alt="">
+            <h2 class="banner__cta-btn-text" data-aos="fade-down" data-aos-anchor="top">Visnja</h2>
+          </a>
+          <a href="pepper.html" class="banner__cta-btn" >
+            <img class="banner__cta-img" src="./images/content/PAPRIKA_PRODUCT.png" alt="">
+            <h2 class="banner__cta-btn-text" data-aos="fade-down" data-aos-delay="300" data-aos-anchor="top">
+              Paprika
+            </h2>
+          </a>
+        </div>
+      </section>
+      <section class="about" id="about">
+				<div class="wrap wrap--lg">
+					<div class="about__wrap">
+						<div class="about__content">
+							<div class="about__text">
+                <span class="about__tag tag tag--red" data-aos="tagbar" data-aos-delay="200">About us</span>
+                <div style="overflow: hidden;">
+								  <h3 class="h3 about__heading langchange" data-key="aboutHeading" data-aos="fade-up" data-aos-delay="300">O Nama</h3>
+                </div>
+                <p class="p about__desc langchange" data-key="aboutDesc" data-aos="fade-up" data-aos-delay="350">Podrum Palić Hladnjača je novoizgrađena hladnjača na Paliću u Srbiji. Hladnjača je kapaciteta 6000 tona zamrznutih proizvoda, sa proizvodnim linijama za višnju i papriku i pokriva površinu od 7000 kvadratnih metara. Naš dnevni kapacitet iznosi 100 tona zamrznutog proizvoda. Proizvodnja zamrznutog povrća i voća, uključuje direktnu kooperaciju sa uzgajivačima iz Vojvodine. Našim kupcima, pružamo visokokvalitetne proizvode, proizvedene u Srbiji. Naši inostrani partneri su proizvođači smrznutih proizvoda, trgovački lanci, veleprodajne i maloprodajne organizacije, asocijacije i proizvođači u Evropi i Rusiji. Hrana se proizvodi korišćenjem najnovije tehnologije i u skladu sa najvišim standardima kvaliteta i bezbednosti hrane. U skladu smo sa svim tehničkim, tehnološkim i sanitarnim standardima koji su u skladu sa standardima EU.</p>
+                <a href="#contact" class="about__cta cta cta--red cta--arrow" data-aos="fade-up" data-aos-delay="400">Kontakt <span class="icon"></span></a>
+							</div>
+							<div class="about__video" style="overflow: hidden;">
+								<video class="about__video-item" preload="none" controls poster="./images/content/logo-dark.png" data-aos="fade-up" data-aos-delay="300">
+									<source src="https://pph.rs/assets/images/PPHvideo.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+      <section class="counter js-counter">
+        <div class="wrap wrap--sm">
+          <div class="counter__wrap">
+            <h5 class="h5 counter__title">Much more than just an innovative idea, PPH innovative cold storage was successfully developed and tested with a 3-region, 15-countries, $5 billion food system.</h5>
+            <div class="counter__content">
+              <div class="counter__item">
+                <div class="counter__item-stat">
+                  <span class="counter__prefix"></span>
+                  <span class="counter__number js-counter-number" data-counter="6000">6000</span>
+                  <span class="counter__suffix">t</span>
+                </div>
+                <p class="counter__text">Zamrznutih proizvoda</p>
+              </div>
+              <div class="counter__item">
+                <div class="counter__item-stat">
+                  <span class="counter__prefix"></span>
+                  <span class="counter__number js-counter-number" data-counter="7000">7000</span>
+                  <span class="counter__suffix">m<sup>2</sup></span>
+                </div>
+                <p class="counter__text">Prostora</p>
+              </div>
+              <div class="counter__item">
+                <div class="counter__item-stat">
+                  <span class="counter__prefix"></span>
+                  <span class="counter__number js-counter-number" data-counter="120">120</span>
+                  <span class="counter__suffix"></span>
+                </div>
+                <p class="counter__text">Zadovoljnih klijenata</p>
+              </div>
+              <div class="counter__item">
+                <div class="counter__item-stat">
+                  <span class="counter__prefix"></span>
+                  <span class="counter__number js-counter-number" data-counter="45">45</span>
+                  <span class="counter__suffix">%</span>
+                </div>
+                <p class="counter__text">Rasta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="activities">
+				<div class="wrap">
+          <div style="overflow: hidden;">
+            <h3 class="h3 activities__heading langchange" data-key="activitiesHeading" data-aos="fade-up" data-aos-delay="300">What we offer</h3>
+          </div>
+					<div class="activities__wrapper swiper">
+						<div class="activities__container swiper-wrapper">
+							<div class="activities__card swiper-slide">
+								<div class="activities__img">
+									<img src="./images/content/growth.png" alt="img icon" class="activities__img-item">
+								</div>
+								<p class="p activities__desc langchange" data-key="activity1">Uzgoj</p>
+							</div>
+							<div class="activities__card swiper-slide">
+								<div class="activities__img">
+									<img src="./images/content/freezing.png" alt="img icon" class="activities__img-item">
+								</div>
+								<p class="p activities__desc langchange" data-key="activity2">Zamrzavanje</p>
+							</div>
+							<div class="activities__card swiper-slide">
+								<div class="activities__img">
+									<img src="./images/content/storage.png" alt="img icon" class="activities__img-item">
+								</div>
+								<p class="p activities__desc langchange" data-key="activity3">Skladištenje</p>
+							</div>
+							<div class="activities__card swiper-slide">
+								<div class="activities__img">
+									<img src="./images/content/packing.png" alt="img icon" class="activities__img-item">
+								</div>
+								<p class="p activities__desc langchange" data-key="activity4">Pakovanje</p>
+							</div>
+							<div class="activities__card swiper-slide">
+								<div class="activities__img">
+									<img src="./images/content/transport.png" alt="img icon" class="activities__img-item">
+								</div>
+								<p class="p activities__desc langchange" data-key="activity5">Isporuka</p>
+							</div>
+						</div>
+            <div class="activities__slider-controls">
+              <button type="button" class="activities__slider-controls-btn js-offers-button-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" style="height:24px" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
+              </button>
+              <button type="button" class="activities__slider-controls-btn js-offers-button-next">
+                <svg xmlns="http://www.w3.org/2000/svg" style="height:24px" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+              </button>
+            </div>
+          </div>
+				</div>
+			</section>
+      <section class="products" id="products">
+				<div class="wrap wrap--sm">
+					<div class="products__wrap">
+						<div class="products__text">
+              <span class="about__tag tag tag--white" data-aos="tagbar" data-aos-delay="200">PPH PRODUCTS</span>
+              <div style="overflow: hidden;">
+                <h3 class="h3 products__heading langchange" data-key="productsHeading" data-aos="fade-up" data-aos-delay="300">Our Products</h3>
+              </div>
+							<!-- <p class="p products__desc langchange" data-key="productsDesc">Podrum Palić Hladnjača je jedan od najvećih izvoznika zamrznutih VIŠANJA i PAPRIKA iz Srbije. Naša ponuda obuhvata visoko kvalitetne proizvode, koji se zamrzavaju i pakuju u vrlo kratkom vremenskom roku, koristeći najnoviju tehnologiju.</p> -->
+						</div>
+						<div class="products__content">
+							<div class="products__block">
+                <a href="sour-cherry.html" class="products__card" data-aos="fade-up" data-aos-delay="150"  data-aos-easing="linear"  data-aos-duration="500">
+                  <div class="products__card-content">
+                    <h4 class="h4 products__title langchange" data-key="productTitle" >Višnja</h4>
+                    <p class="products__card-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ad nihil ratione iste, facere expedita repellat quos quis omnis aut.</p>
+                    <div class="products__cta">
+                      <span class="products__link langchange" data-key="productReadMore">
+                        <span>Pročitajte više </span>
+                      </span>
+                      <span class="icon"></span>
+                    </div>
+                  </div>
+									<div class="products__img">
+										<img src="./images/content/hero__img2.png" alt="product img" class="products__img-item" >
+									</div>
+								</a>
+							</div>
+							<div class="products__block">
+                <a href="pepper.html" class="products__card" data-aos="fade-up" data-aos-delay="300" data-aos-easing="linear"  data-aos-duration="500">
+                  <div class="products__card-content">
+                    <h4 class="h4 products__title langchange" data-key="productTitle2" >Paprika</h4>
+                    <p class="products__card-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur ad nihil ratione iste, facere expedita repellat quos quis omnis aut.</p>
+                    <div class="products__cta">
+                      <span class="products__link langchange" data-key="productReadMore">
+                        <span>Pročitajte više </span>
+                      </span>
+                      <span class="icon"></span>
+                    </div>
+                    </div>
+                  <div class="products__img">
+										<img src="./images/content/hero__img2.png" alt="product img" class="products__img-item">
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+      <section class="production">
+        <div class="wrap wrap--sm">
+          <div class="production__wrap">
+            <div class="production__text">
+              <span class="production__tag tag tag--red"  data-aos="tagbar" data-aos-delay="200">PRODUCTION</span>
+              <div style="overflow: hidden;">
+                <h3 class="h3 production__heading langchange" data-key="productsHeading" data-aos="fade-up" data-aos-delay="300">Our Production unit</h3>
+              </div>
+              <div class="production__stats">
+                <div class="production__stats-item" data-aos="fade-up" data-aos-delay="300">
+                  <span class="production__stats-icon">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.74 15.813C18.6387 15.813 17.6043 16.2412 16.828 17.0186C16.0501 17.7959 15.6214 18.8298 15.6214 19.9305C15.6214 21.0302 16.0495 22.0646 16.828 22.8431C17.6059 23.6204 18.6398 24.0486 19.74 24.0486C20.8397 24.0486 21.8741 23.6204 22.652 22.8431C23.4299 22.0646 23.8581 21.0302 23.8581 19.9305C23.8581 18.8303 23.4299 17.796 22.6526 17.0191C21.8752 16.2412 20.8407 15.813 19.74 15.813ZM22.1543 22.3448C21.5091 22.9895 20.6522 23.3445 19.74 23.3445C18.8283 23.3445 17.9703 22.9895 17.3257 22.3448C16.6805 21.7001 16.3255 20.8427 16.3255 19.9305C16.3255 19.0184 16.6805 18.1609 17.3257 17.5168C17.9703 16.8716 18.8283 16.5166 19.74 16.5166C20.6522 16.5166 21.5091 16.8716 22.1543 17.5168C22.7989 18.1609 23.1539 19.0184 23.1539 19.9305C23.154 20.8427 22.7989 21.7001 22.1543 22.3448Z" fill="black"/>
+                      <path d="M29.2407 18.581L27.046 18.2629C26.9086 18.2524 26.7901 18.166 26.7369 18.038L26.0259 16.3216C25.9727 16.1941 25.9948 16.0488 26.0848 15.9445L27.3973 14.1806C27.6064 13.9357 27.5927 13.5717 27.3647 13.3443L26.3261 12.3056C26.2066 12.1855 26.0486 12.125 25.8906 12.125C25.7484 12.125 25.6056 12.174 25.4903 12.273L23.7259 13.586C23.659 13.6434 23.5743 13.6734 23.4889 13.6734C23.4415 13.6734 23.3941 13.6639 23.3494 13.6455L21.6319 12.9335C21.505 12.8813 21.418 12.7612 21.407 12.6248L21.0884 10.4302C21.0636 10.1088 20.796 9.86133 20.4748 9.86133H19.0053C18.6835 9.86133 18.416 10.1088 18.3912 10.4302L18.0721 12.6248C18.0616 12.7612 17.9752 12.8813 17.8477 12.9339L16.1302 13.6455C16.0849 13.6639 16.0375 13.6734 15.9902 13.6734C15.9049 13.6734 15.8205 13.6434 15.7532 13.586L13.9898 12.2735C13.8745 12.1744 13.7318 12.1249 13.5901 12.1249C13.4316 12.1249 13.2736 12.186 13.1535 12.3061L12.1148 13.3442C11.8873 13.5722 11.8737 13.9356 12.0822 14.1806L13.3947 15.9444C13.4837 16.0487 13.5069 16.194 13.4542 16.3215L12.7427 18.0385C12.691 18.1659 12.5709 18.2524 12.4346 18.2629L10.2388 18.5815C9.91869 18.6068 9.67113 18.8743 9.67113 19.1961V20.6645C9.67113 20.9869 9.91869 21.2544 10.2388 21.2796L12.4346 21.5978C12.571 21.6088 12.6911 21.6957 12.7427 21.8227L13.4542 23.5401C13.5074 23.6665 13.4837 23.8129 13.3947 23.9172L12.0822 25.6811C11.8737 25.9249 11.8873 26.2894 12.1148 26.5169L13.1535 27.5555C13.2736 27.6756 13.4316 27.7361 13.5896 27.7361C13.7318 27.7361 13.8745 27.6871 13.9899 27.5881L15.7532 26.2751C15.8206 26.2177 15.9049 26.1882 15.9902 26.1882C16.0376 26.1882 16.085 26.1971 16.1303 26.2161L17.8477 26.9278C17.9751 26.9804 18.062 27.0994 18.0725 27.2369L18.3912 29.4316C18.4159 29.7517 18.6835 29.9998 19.0053 29.9998H20.4747C20.7965 29.9998 21.0635 29.7517 21.0888 29.4316L21.4069 27.2369C21.418 27.0995 21.5049 26.9805 21.6318 26.9278L23.3493 26.2162C23.3946 26.1972 23.4419 26.1883 23.4894 26.1883C23.5747 26.1883 23.6595 26.2178 23.7264 26.2752L25.4902 27.5882C25.6056 27.6872 25.7483 27.7362 25.8905 27.7362C26.0485 27.7362 26.2065 27.6756 26.3261 27.5556L27.3647 26.517C27.5932 26.2895 27.6064 25.925 27.3973 25.6812L26.0848 23.9173C25.9963 23.813 25.9726 23.6666 26.0258 23.5402L26.7368 21.8228C26.7901 21.6958 26.9085 21.6089 27.046 21.5979L29.2406 21.2797C29.5614 21.2545 29.8089 20.9869 29.8089 20.6657V19.1962C29.809 18.8743 29.5614 18.6068 29.2407 18.581ZM29.1048 20.5876L26.9618 20.8983C26.5726 20.9399 26.2397 21.188 26.0865 21.5535L25.376 23.2683C25.2237 23.6328 25.2833 24.0447 25.5302 24.3512L26.8122 26.074L25.8831 27.003L24.161 25.7211C23.9713 25.5678 23.7338 25.4835 23.4894 25.4835C23.3467 25.4835 23.2077 25.512 23.0802 25.5657L21.3611 26.2777C20.9972 26.4294 20.7492 26.7628 20.7075 27.1525L20.3968 29.2955H19.0833L18.772 27.153C18.731 26.7633 18.4834 26.4294 18.1174 26.2767L16.402 25.5667C16.2708 25.5114 16.1323 25.4835 15.9902 25.4835C15.7468 25.4835 15.5098 25.5677 15.3197 25.7204L13.5964 27.0029L12.6678 26.0739L13.9493 24.3511C14.1968 24.0445 14.2563 23.6321 14.1047 23.2703L13.3947 21.5565C13.2451 21.19 12.9112 20.9403 12.5193 20.8982L10.3752 20.5874V19.2728L12.5183 18.9621C12.9117 18.921 13.2462 18.6703 13.3931 18.3079L14.1036 16.593C14.2563 16.2286 14.1968 15.8162 13.9493 15.5102L12.6673 13.7869L13.5969 12.8579L15.3186 14.1398C15.5087 14.2935 15.7457 14.3773 15.9901 14.3773C16.1313 14.3773 16.2692 14.3499 16.3998 14.2957L18.1168 13.5841C18.4818 13.4335 18.7309 13.0991 18.7714 12.7083L19.0832 10.5657H20.3968L20.7074 12.7093C20.7496 13.1001 20.9988 13.4341 21.3621 13.5836L23.0796 14.2957C23.2097 14.3494 23.3477 14.3773 23.4888 14.3773C23.7337 14.3773 23.9713 14.2931 24.1609 14.1398L25.8831 12.8579L26.8121 13.7869L25.5313 15.5081C25.2827 15.8136 25.2226 16.2265 25.3754 16.5904L26.0864 18.3079C26.238 18.6724 26.572 18.9209 26.9623 18.9621L29.1047 19.2728L29.1048 20.5876Z" fill="black"/>
+                      <path d="M9.99966 15.2586L11.0815 14.8636C11.319 14.7772 11.4491 14.5228 11.3817 14.28L11.0262 12.5778C10.9978 12.4725 11.0299 12.3619 11.1089 12.2892L12.1828 11.3033C12.236 11.2543 12.3055 11.2286 12.3756 11.2286C12.4098 11.2286 12.4441 11.2344 12.4761 11.2459L14.1284 11.7394C14.1847 11.7605 14.2426 11.7705 14.2995 11.77C14.4817 11.7694 14.6551 11.6646 14.7361 11.4908L15.2212 10.4464C15.3292 10.2173 15.2406 9.94506 15.021 9.82125L13.5806 8.87531C13.4868 8.82217 13.4304 8.72156 13.4357 8.61304L13.4979 7.15681C13.5026 7.04883 13.5674 6.95402 13.6644 6.90879L15.1959 6.08402C15.426 5.97972 15.5361 5.71535 15.4497 5.47886L15.0553 4.39658C14.9841 4.20111 14.7987 4.07842 14.5996 4.079C14.557 4.07953 14.5138 4.08474 14.4711 4.09693L12.7689 4.45136C12.7436 4.45875 12.7178 4.46244 12.6925 4.46244C12.6135 4.46297 12.5366 4.42927 12.4808 4.36927L11.4959 3.29584C11.4221 3.21638 11.3995 3.10306 11.4379 3.00252L11.9309 1.34976C12.0189 1.11334 11.9115 0.849958 11.6818 0.743025L10.6374 0.256931C10.571 0.226345 10.5009 0.211638 10.432 0.211638C10.2629 0.212634 10.1007 0.302224 10.0128 0.458083L9.06632 1.89908C9.01523 1.98861 8.92043 2.04386 8.81771 2.04439H8.80511L7.3483 1.98123C7.24084 1.97595 7.14392 1.91121 7.09974 1.81377L6.27556 0.283122C6.195 0.105114 6.01851 -0.0012333 5.83365 -0.000237205C5.77939 -0.000237205 5.72414 0.00925498 5.67041 0.0287081L4.58859 0.424216C4.35105 0.510642 4.22045 0.76447 4.28894 1.00728L4.6439 2.71002C4.67285 2.81379 4.64074 2.92488 4.56123 2.99759L3.48732 3.98355C3.43312 4.03306 3.36463 4.0589 3.29402 4.05943C3.26033 4.05943 3.22611 4.0531 3.19289 4.04045L1.54125 3.54855C1.48494 3.52693 1.42699 3.51697 1.37009 3.51697C1.18839 3.51797 1.0156 3.62232 0.93404 3.79611L0.448942 4.84101C0.341481 5.06959 0.42943 5.34134 0.649098 5.46615L2.08957 6.41261C2.18384 6.46529 2.23968 6.5659 2.23435 6.67283L2.17224 8.13011C2.16802 8.23758 2.10216 8.33291 2.00525 8.3782L0.473727 9.20297C0.244098 9.3072 0.134 9.57111 0.220368 9.80759L0.614879 10.8899C0.686481 11.0853 0.871872 11.209 1.07097 11.2085C1.1131 11.208 1.15576 11.2017 1.19841 11.1896L2.90168 10.8346C2.92646 10.8278 2.95172 10.8241 2.9765 10.8241C3.05601 10.8241 3.13341 10.8568 3.18873 10.9168L4.17416 11.9912C4.24787 12.0702 4.26943 12.184 4.23211 12.2851L3.7391 13.9368C3.65121 14.1732 3.75914 14.4371 3.98824 14.5446L5.03209 15.0301C5.09894 15.0607 5.16902 15.0754 5.23798 15.0754C5.40709 15.0744 5.56927 14.9853 5.6567 14.8295L6.60316 13.389C6.65367 13.2995 6.74748 13.2436 6.84908 13.2436H6.8649L8.32119 13.3063C8.42912 13.3105 8.5255 13.3753 8.57033 13.4732L9.39457 15.0048C9.47566 15.1818 9.65156 15.2882 9.83695 15.2876C9.89068 15.287 9.94593 15.2781 9.99966 15.2586ZM9.19804 13.1535C9.03744 12.8275 8.71511 12.6173 8.35113 12.6031L6.90017 12.541C6.88224 12.5399 6.86437 12.5389 6.84644 12.5389C6.50461 12.541 6.18439 12.7222 6.00632 13.014L5.15531 14.3101L4.45904 13.9862L4.90254 12.5026C5.0189 12.1576 4.93933 11.781 4.69341 11.5155L3.70963 10.4428C3.52154 10.2363 3.25353 10.1188 2.9738 10.1204C2.89588 10.1204 2.81789 10.1299 2.74259 10.1488L1.21048 10.468L0.948161 9.74748L2.32593 9.00592C2.65195 8.8432 2.86213 8.52029 2.87531 8.15959L2.938 6.70652C2.95535 6.34207 2.77365 6.00287 2.4624 5.81431L1.16783 4.96424L1.49121 4.26797L2.97697 4.7114C3.08021 4.74621 3.18761 4.76302 3.29718 4.76302C3.54363 4.76197 3.77912 4.67039 3.96345 4.50181L5.0342 3.51902C5.30543 3.27258 5.41711 2.9039 5.32916 2.54994L5.01052 1.01941L5.73099 0.756091L6.47197 2.13381C6.63316 2.45883 6.95443 2.66894 7.31841 2.68418L8.77675 2.7474L8.82047 2.74845C9.16494 2.74687 9.48568 2.56465 9.66369 2.27232L10.5148 0.976169L11.2111 1.30002L10.7681 2.78267C10.6502 3.12814 10.7292 3.5042 10.9767 3.77068L11.9621 4.84459C12.1501 5.05049 12.4177 5.16744 12.6952 5.16586C12.7743 5.16533 12.8522 5.1559 12.9291 5.13797L14.4596 4.81828L14.7219 5.53927L13.3435 6.28189C13.0218 6.44203 12.8121 6.76119 12.7942 7.1267L12.7315 8.57871C12.7141 8.94375 12.8958 9.28289 13.2076 9.4725L14.5017 10.323L14.1783 11.0198L12.693 10.5759C12.5898 10.5411 12.4824 10.5237 12.3723 10.5243C12.1242 10.5247 11.8872 10.6185 11.7066 10.7844L10.6316 11.7709C10.3646 12.0173 10.2545 12.385 10.3404 12.7368L10.6601 14.2683L9.93902 14.5307L9.19804 13.1535Z" fill="black"/>
+                      <path d="M10.9008 9.07044C11.2816 8.25089 11.3211 7.33237 11.0114 6.48441C10.7012 5.63597 10.0803 4.95862 9.26285 4.57888C8.80628 4.3656 8.32171 4.25866 7.8229 4.26077C7.4332 4.26235 7.04765 4.33185 6.67687 4.46726C5.82738 4.77692 5.15009 5.3979 4.76929 6.21687C4.38849 7.03484 4.349 7.95276 4.65814 8.80284C4.96892 9.65187 5.59042 10.3292 6.40781 10.7089C6.8639 10.9211 7.34841 11.0285 7.84716 11.0265C8.23745 11.0244 8.623 10.9549 8.99431 10.82C9.84169 10.5104 10.5185 9.88888 10.9008 9.07044ZM8.75249 10.1585C8.45706 10.2665 8.15003 10.3208 7.844 10.3218C7.45529 10.3239 7.06763 10.2396 6.70482 10.0706C6.05648 9.76876 5.56564 9.23257 5.31966 8.56108C5.07533 7.88855 5.10579 7.16175 5.40761 6.51388C5.70943 5.86501 6.24609 5.37312 6.91757 5.12878C7.21353 5.02026 7.52062 4.96601 7.82613 4.96495C8.21484 4.96331 8.60191 5.04763 8.96478 5.21673C9.61259 5.51849 10.1045 6.05468 10.3499 6.72616C10.5949 7.39823 10.5637 8.1245 10.2625 8.77337C9.95964 9.42171 9.42404 9.91314 8.75249 10.1585Z" fill="black"/>
+                    </svg>
+                  </span>
+                  <h4 class="h5 production__stats-title">Automatisation</h4>
+                  <p class="production__stats-text">Get paid quickly & spend your earnings hassle-free.</p>
+                </div>
+                <div class="production__stats-item" data-aos="fade-up" data-aos-delay="350">
+                  <span class="production__stats-icon">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M26.0953 20.2583H24.7617V17.3014H20.0761V20.2583H16.23V17.3014H11.5444V20.2583H7.42491V5.21231H11.5138C11.7615 5.96294 12.3556 6.55708 13.1062 6.80472V8.95011H12.4296L12.3696 11.4255L9.70634 13.2091L11.4286 15.6439L12.7037 14.7418L11.9068 13.6153L13.8871 12.2892L15.8674 13.6153L15.0704 14.7418L16.3456 15.6439L18.0679 13.2091L15.4046 11.4255L15.3446 8.95011H14.668V6.80472C15.6646 6.47594 16.3861 5.53655 16.3861 4.43137C16.3861 3.05341 15.2651 1.93237 13.8871 1.93237C12.7818 1.93237 11.8425 2.65388 11.5137 3.65043H7.42491H5.66132H2.34882V20.5826C0.967971 21.185 0 22.5628 0 24.163C0 26.316 1.75164 28.0677 3.90468 28.0677H26.0953C28.2484 28.0677 30 26.316 30 24.163C30 22.0099 28.2484 20.2583 26.0953 20.2583ZM13.8872 3.49425C14.4039 3.49425 14.8243 3.91463 14.8243 4.43137C14.8243 4.94812 14.4039 5.3685 13.8872 5.3685C13.3704 5.3685 12.95 4.94812 12.95 4.43137C12.95 3.91463 13.3704 3.49425 13.8872 3.49425ZM21.638 18.8633H23.1998V20.2583H21.638V18.8633ZM13.1062 18.8633H14.6681V20.2583H13.1062V18.8633ZM3.9107 5.21231H5.66132H5.86304V20.2583H3.9107V5.21231ZM26.0953 26.5058H3.90468C2.61286 26.5058 1.56187 25.4548 1.56187 24.163C1.56187 22.8712 2.61286 21.8202 3.90468 21.8202H26.0953C27.3871 21.8202 28.4381 22.8712 28.4381 24.163C28.4381 25.4548 27.3871 26.5058 26.0953 26.5058Z" fill="black"/>
+                      <path d="M6.96284 23.3821H4.20355V24.944H6.96284V23.3821Z" fill="black"/>
+                      <path d="M13.2407 23.3821H10.4814V24.944H13.2407V23.3821Z" fill="black"/>
+                      <path d="M19.5186 23.3821H16.7592V24.944H19.5186V23.3821Z" fill="black"/>
+                      <path d="M25.7965 23.3821H23.0372V24.944H25.7965V23.3821Z" fill="black"/>
+                    </svg>
+                  </span>
+                  <h5 class="h5 production__stats-title">Newest Machinery</h5>
+                  <p class="production__stats-text">Get paid quickly & spend your earnings hassle-free.</p>
+                </div>
+                <div class="production__stats-item" data-aos="fade-up" data-aos-delay="400">
+                  <span class="production__stats-icon">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_3_45)">
+                      <path d="M29.9 26.5C29.9 26.2 29.7 26 29.4 26H27.4V8.56635C28.933 7.84635 30 6.30346 30 4.5C30 1.99998 28 0 25.5 0C23 0 21 1.99998 21 4.5C21 6.28705 22.0222 7.81816 23.5 8.54637V26H21.5V10.5C21.5 9.10002 20.4001 7.99998 19 7.99998H15.5C15.5 7.69998 15.3001 7.5 15.0001 7.5H9C8.7 7.5 8.50002 7.69998 8.50002 7.99998H4.99998C3.6 7.99998 2.49996 9.09996 2.49996 10.5V26H0.49998C0.19998 26 0 26.2 0 26.5V27.25C0 28.85 1.05 30 2.50002 30H27.5C28.9501 30 30.0001 28.85 29.9 27.25V26.5H29.9ZM22 4.5C22 2.55 23.55 1.00002 25.5 1.00002C27.45 1.00002 29 2.55 29 4.5C29 5.96783 28.0932 7.20879 26.8131 7.73279C26.7915 7.7376 26.7702 7.74322 26.75 7.74996C26.6858 7.77803 26.6204 7.80299 26.5545 7.8266C26.2062 7.93869 25.8351 7.99998 25.45 7.99998C23.55 7.99998 22 6.45 22 4.5ZM14.45 8.50002C14.45 8.58615 14.467 8.65553 14.5 8.71811V13.75L12.2999 12.1C12.1 11.95 11.8999 11.95 11.6999 12.1L9.49992 13.75V8.50002H14.45ZM3.49998 10.5C3.49998 9.64998 4.14996 9 4.99998 9H8.49996V14.25C8.49996 14.6 8.69994 14.9 8.99994 15C9.29994 15.1 9.64992 15 9.84996 14.8L11.9999 13.15L14.1499 14.75C14.2999 14.9 14.4999 15.0001 14.6999 15.0001C14.8 15.0001 14.8999 15.0001 14.9999 14.9501C15.2999 14.8001 15.4999 14.5501 15.4999 14.2001V9H18.9999C19.8499 9 20.4999 9.64998 20.4999 10.5V26H3.49998V10.5ZM29 27.25C29 28.15 28.55 29 27.5 29H2.50002C1.45002 29 1.00002 28.15 1.00002 27.25V27H3H21H24C24.3 27 24.5 26.8 24.5 26.5V8.89998C25.15 9.04998 25.85 9.04998 26.5 8.89998V26.5C26.5 26.8 26.6999 26.9999 26.9999 26.9999H28.9999V27.25H29Z" fill="black"/>
+                      <path d="M27 6.50001C27.15 6.50001 27.25 6.45002 27.35 6.35001C27.55 6.15002 27.55 5.85002 27.35 5.64999L25.85 4.14999C25.65 3.95 25.35 3.95 25.15 4.14999C24.9499 4.34997 24.95 4.64997 25.15 4.85001L26.65 6.35001C26.75 6.45002 26.85 6.50001 27 6.50001Z" fill="black"/>
+                      <path d="M9.49998 21.5H4.99998C4.69998 21.5 4.5 21.7 4.5 22V24.5C4.5 24.8 4.69998 25 4.99998 25H9.49998C9.79998 25 9.99996 24.8 9.99996 24.5V22C10 21.7 9.79998 21.5 9.49998 21.5ZM9 24H5.50002V22.5H9V24Z" fill="black"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_3_45">
+                      <rect width="30" height="30" fill="white"/>
+                      </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <h5 class="h5 production__stats-title">Automatic scales</h5>
+                  <p class="production__stats-text">Get paid quickly & spend your earnings hassle-free.</p>
+                </div>
+                <div class="production__stats-item" data-aos="fade-up" data-aos-delay="450">
+                  <span class="production__stats-icon">
+                    <svg width="24" height="30" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22.2857 1.00002H17.1429C17.1429 0.45 16.6286 0 16 0H8.00002C7.37143 0 6.85714 0.45 6.85714 1.00002H1.71429C0.742835 1.00002 0 1.65 0 2.50002V28.5C0 29.35 0.742835 30 1.71429 30H22.2857C23.2572 30 24 29.35 24 28.5V2.50002C24 1.65 23.2572 1.00002 22.2857 1.00002ZM8.00002 4.99998H16C16.6286 4.99998 17.1429 4.54998 17.1429 3.99996H20.5714V27H3.42857V4.00002H6.85714C6.85714 4.54998 7.37143 4.99998 8.00002 4.99998ZM8.00002 1.00002H16V1.5V3.49998V3.99996H8.00002V3.49998V1.5V1.00002ZM22.8571 28.5C22.8571 28.8 22.6286 29 22.2857 29H1.71429C1.37143 29 1.14288 28.8 1.14288 28.5V2.50002C1.14288 2.20002 1.37143 2.00004 1.71429 2.00004H6.85714V3H3.42857C2.79998 3 2.28569 3.45 2.28569 4.00002V27C2.28569 27.55 2.79998 28 3.42857 28H20.5714C21.2 28 21.7143 27.55 21.7143 27V4.00002C21.7143 3.45 21.2 3 20.5714 3H17.1429V1.99998H22.2857C22.6286 1.99998 22.8571 2.19996 22.8571 2.49996V28.5Z" fill="black"/>
+                      <path d="M4.57144 6.99998V9.99998C4.57144 10.3 4.79999 10.5 5.14285 10.5H10.8571C11.2 10.5 11.4285 10.3 11.4285 9.99998V6.99998C11.4285 6.69998 11.2 6.5 10.8571 6.5H5.14285C4.79999 6.49994 4.57144 6.69998 4.57144 6.99998ZM5.71425 7.49996H10.2857V9.49994H5.71425V7.49996Z" fill="black"/>
+                      <path d="M4.57144 13C4.57144 13.3 4.79999 13.5 5.14285 13.5H18.8571C19.2 13.5 19.4285 13.3 19.4285 13C19.4285 12.7 19.2 12.5 18.8571 12.5H5.14285C4.79999 12.4999 4.57144 12.7 4.57144 13Z" fill="black"/>
+                      <path d="M5.14285 15.5H17.7143C18.0571 15.5 18.2857 15.3 18.2857 15C18.2857 14.7 18.0571 14.5 17.7143 14.5H5.14285C4.79999 14.5 4.57144 14.7 4.57144 15C4.57144 15.3 4.79999 15.5 5.14285 15.5Z" fill="black"/>
+                      <path d="M17.7143 17C17.7143 16.7 17.4857 16.5 17.1428 16.5H5.14285C4.79999 16.5 4.57144 16.7 4.57144 17C4.57144 17.3 4.79999 17.5 5.14285 17.5H17.1428C17.4857 17.5 17.7143 17.3 17.7143 17Z" fill="black"/>
+                      <path d="M18.0571 21.1C17.7714 20.9 17.4285 21 17.2571 21.2L14.846 24.1536L13.6 22.6999C13.4286 22.5 13.0286 22.4499 12.8 22.5999C12.5713 22.7499 12.5142 23.0999 12.6856 23.2999L14.3679 25.2625C14.3825 25.2823 14.3991 25.301 14.4167 25.3189C14.5306 25.4534 14.6936 25.4999 14.8571 25.4999C15.0285 25.4999 15.2 25.4499 15.3143 25.2999L18.1714 21.7999C18.4 21.55 18.2857 21.25 18.0571 21.1Z" fill="black"/>
+                    </svg>
+                  </span>
+                  <h5 class="h5 production__stats-title">Certified</h5>
+                  <p class="production__stats-text">Get paid quickly & spend your earnings hassle-free.</p>
+                </div>
+              </div>
+              <a href="production.html" class="production__cta cta cta--red cta--arrow" data-aos="fade-up" data-aos-delay="390">Proizvodnja <span class="icon"></span></a>
+            </div>
+            <div class="production__img" data-aos="zoom-in" data-aos-duration="600" data-aos-easing="linear" data-aos-delay="400">
+              <img class="production__img-item" src="https://pph.rs/assets/images/proizvodnja7__img.png" alt="production">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <iframe class="map__item" title="map" id="gmap_canvas" src="https://maps.google.com/maps?q=podrum%20palic%20hladnjaca&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+      </section>
+    </main>
+    <footer class="footer" id="contact">
+      <div class="wrap wrap--sm">
+        <div class="footer__wrapper">
+          <!-- <h3 class="h3 footer__heading langchange" data-key="footerHeading">Kontaktirajte nas</h3> -->
+          <div class="footer__content">
+            <div class="footer__info">
+              <a href="/" class="footer__logo header__logo header__logo--white">
+                <img src="./images/content/logo-dark.png" alt="" class="header__logo-img">
+              </a>
+              <p class="footer__intro">Delivering freshness and convenience in every frozen delight. Trust PPH.</p>
+              <div class="footer__card">
+                <svg width="26" height="34" viewBox="0 0 26 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1217 -0.012207C6.15219 -0.012207 0.25 5.92345 0.25 12.9551C0.25 20.3182 7.09091 27.8481 11.6926 33.1404C11.7101 33.1617 12.4539 33.9878 13.3703 33.9878H13.4516C14.368 33.9878 15.1064 33.1617 15.125 33.1404C19.4435 28.1759 25.75 19.9904 25.75 12.9551C25.75 5.92345 21.1462 -0.012207 13.1217 -0.012207ZM13.5477 31.7151C13.5105 31.7523 13.4563 31.7938 13.4085 31.8283C13.3596 31.7948 13.3065 31.7523 13.2672 31.7151L12.7115 31.076C8.34891 26.0711 2.375 19.2175 2.375 12.9551C2.375 7.07786 7.2965 2.11226 13.1217 2.11226C20.3775 2.11226 23.625 7.55757 23.625 12.9551C23.625 17.7092 20.234 24.0215 13.5477 31.7151ZM13.0372 6.42176C9.51656 6.42176 6.66215 9.27617 6.66215 12.7968C6.66215 16.3174 9.51656 19.1718 13.0372 19.1718C16.5577 19.1718 19.4122 16.3174 19.4122 12.7968C19.4122 9.27617 16.5577 6.42176 13.0372 6.42176ZM13.0372 17.0468C10.6938 17.0468 8.73825 15.0939 8.73825 12.75C8.73825 10.4067 10.6449 8.50001 12.9882 8.50001C15.3332 8.50001 17.2382 10.4067 17.2382 12.75C17.2393 15.0939 15.3821 17.0468 13.0372 17.0468Z" fill="white"/>
+                </svg>
+                <p class="footer__card-text">Josipa Kolumba 33, <br>Palić 24413, Serbia</p>
+              </div>
+              <div class="footer__card">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <rect width="34" height="34" fill="url(#pattern0)"/>
+                  <defs>
+                  <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                  <use xlink:href="#image0_7_18" transform="scale(0.0078125)"/>
+                  </pattern>
+                  <image id="image0_7_18" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAt1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8QiqlJAAAAPHRSTlMAFfsDBe3V0oYYCQ/ZGvjdv+bMgjn14XpAxXVfUDO5fW9ks7Ar6iWinJlWpiEe8VoMlItLL45rRapoB4iuR7U3AAAHMUlEQVR42uzY2XbaMBAA0PHaGIPZiQGzUyCUJQ0hTdL5/+9qe46kQWLAMqdJX3ofWTySNaORDf/997fFJfiHvHGAiEG9u7rPKvAP3OOJ8mofw+eKE9Qls+xTV2SA54K7CD5NBTnt7xso7vEw2S+gqCWykmbhhXjZ4W+Nt8eCSfANeZ0MCrlDoT7xoJBFtp/0jtOyi4ZvcaH4pPEMtyilzZo+iOqgUHyS9Dy4TTRuaBd6AztNNExjuNXz0kXys9j8SbiBm81nSFZeofgkSOF2hzIqr559/C/rkxV0J3C70hGVlX18B2CyQ6WXP9PeeLJuOcDIApTuCsQH2NZQaebsQfKnQW2U+mDYhii9FYgP4D3Z5vBKy5kHM2mcrqrGgV18ad22ugfeDnXVcUlPhKH6JraJTwZfbfKg5J7v/339F121K+ftP6HewTdVlPpw0Rc81x1oWaJ+klnMn8+gJIVLUhfPuSMPyDaQi1Bi50/xTY4ae7CASwbD+g7P1CIg2eVs6nPxSVRVX18/ITityaqqZ8IcyFHeya35vx0bn2zqlEG55s0OkqAFSkkO7jvoelp8zlztZWvI5/dDVNonIzjIz4w4NS0+64dMsq8OWPD6VL3BMyhTfkcWNzi8du0eLYKVaEh5ENGdlIN614YrZreHa9SB0/KQ5t27qhY8ugXcXlAyPuQ9ygx6BUtZgsIIpBZ7kZ3RqHgpCgtzp1qWw8b02N+cJY4cgUt3rSEqUesIod1p4UHNR7MJVJ+5M8a2lqvQBWmMzHrPxP/huorojEMA499k2uKfl/vqImJMD6DQqOY5AxDVUgZNYDyCVIB4Q1kJPghd5iLPVuelSlm2S9B0UBdkQCI5vL7ZdiIgntg16r5NfFzyjYw8AXkxR51yNXekfTY/vtsCjT9D09KnycldOTXOLj1uDRp58fmD0Y/R07Lb1kZw1mkp68pczclngB/Ai0KkTYXnp6s2d4T1RY4Evr4Z1uDUhOqVE9H87+Ey50jnouzssJXq692BU++y4R/YyXWZ+KyBKokgMhvQSG9rAd/sylwhvHD3nxd1z9Ogqt/zN5HLRquR/XsM5zo0/1ylGgoDEFb6lPfi+3f+JWPggGlO8S3EMl9mZoI5+rEoNkbeoXIx7On+2xjITFwYLbglmqc4WnFhaJ9hWkXbBztH4/TtGNvcK/7xAiaZPqHP56ALlpy23m88ceGJXKQlYsIsZ+tSqq+Zg4jVo/KWDjx6fkeDx2v/S575d8AvYCk1OmDH8iWHI0uxoS+Cn1AhW/HbelecMfs8a3/hRcow98DCp9NMq4sh5JvKSkjZnfA7WFoazTUNMXmIId92x77GiBJRiJVihRiCEr+DDXpMfmUfSlZgp0cDKIiOuG9chbrzQmWwhOKcOluLssMMi8wjqMANDiiUY+6paGJZiM1OMNvATZ5QmHrM0uy28NH8LrclLxJahA9Gb7PcA5ARHQo+XMa9FPN/tWtn28nCQACAR5JiAZGlaGupFhf0R61iN2077/9c/03JYBvXAN70u/V4ZpJDJqufpbWG0n3JPsRRM0trDiWjLSX2uOSQxjehbLU2/i7/zBXjg0PZuk38vQgw6LSQQdlClAyFoEkdU7pr2UFjmLs8KBsT01I8BmFVYQamj98cg9LaYGbFoGRPnhh3lmTnRdeQpaET6k4quXrBngUlW2si1ifVCB0z9TnsEMz0tvtoFzcYccghY1MG8d3eJZk2fAVFj5iZMOoDX3orRG7p96QGamjcJSBYHRRcWxafxA+ghM0w8wZCOkDhqi+NT5JPUMEHstrDVkjcsSw+6RigwnSlJ1R9DQUtsXPf329eF1RYvvSMch0jaa3GP9vvtXI/T0FFrS6dAWwX89xoZHIaNQ3bSJBEoMLQpefQ7FHDnyg+ANw5KNyCCrshn4OC+r74AOkMhS+1DKgtMw6ERy15fMm3+gYqniiDDYec+UYaX1hf5Y5ZVRjU2wMT8kYbSXwy8jDzXlQGvRS2vCaLPXWHXkBoSmU5Pwf5BmxLw9l3Q+t9tjv1lmJF6kieBZDxXRi+zKWpN8T/aqDC7J35uosGkcvVMqCZqbmEE4zjglbTfHJmbetm9ULrgpobFP7xc/b8+ieoedfOWxY/07yk6KFFJWcEx6LNtWeCouDqrIl+vqAuUDRvoJBwONZH1m+gzPBRcGtwLJ9uPlSZExTaXTjSlC6P1N1rVJPeT1za9UEJTfRCzz4lPr5AIcb6Sfsfir+woBjWAEliHogvedeqjN1oKOjdI+NfQ4HWHgratVlZfFIbIHFeDm9tnqFoURPJ4Kmy+CRwkCwiXlX/E2uDOU7IYItRWnwyjTFHD1lF/U+MIebVl7yi9pOlh3ne12s18YmVaLjFmUTTfgXxSeCjBMWvwNTBHZ6hGuZ9fJn2kzTyLtN+YvZ93HYDVQtWHgrxEi6ABbfDdhPR631YcDkphz9/DvgPuwIxuK2ws0UAAAAASUVORK5CYII="/>
+                  </defs>
+                </svg>
+                <a href="tel:+38124225133" class="footer__card-text footer__card-link">+381 (0) 24 225 133</a>
+              </div>
+              <div class="footer__card">
+                <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M33.9122 4.45555C33.7589 3.68351 33.4166 2.97702 32.9386 2.39337C32.8378 2.2662 32.7324 2.15232 32.6183 2.03843C31.7713 1.18723 30.5825 0.65625 29.2838 0.65625H4.71624C3.41753 0.65625 2.23298 1.18723 1.38198 2.03843C1.26809 2.15232 1.16277 2.2662 1.0617 2.39337C0.583379 2.97695 0.241055 3.68351 0.0920391 4.45555C0.0308125 4.75352 0 5.06144 0 5.37275V22.6273C0 23.2892 0.140383 23.9255 0.390734 24.5001C0.622957 25.0487 0.965348 25.545 1.38191 25.9611C1.4875 26.0665 1.59236 26.1633 1.70677 26.2596C2.52264 26.9353 3.57578 27.3433 4.71624 27.3433H29.2838C30.4246 27.3433 31.4823 26.9353 32.2935 26.2553C32.4076 26.1633 32.513 26.0665 32.6183 25.9611C33.0347 25.545 33.377 25.0487 33.614 24.5001V24.4959C33.8643 23.9213 33.9999 23.2892 33.9999 22.6274V5.37275C34 5.06144 33.9697 4.75352 33.9122 4.45555ZM3.08849 3.74474C3.50984 3.32386 4.07568 3.06905 4.71624 3.06905H29.2838C29.9243 3.06905 30.4951 3.32386 30.9115 3.74474C30.986 3.81971 31.0562 3.90325 31.1182 3.98626L18.2415 15.2086C17.8864 15.5198 17.4477 15.6736 17 15.6736C16.5568 15.6736 16.1184 15.5198 15.7585 15.2086L2.88681 3.98148C2.94379 3.89847 3.01398 3.81971 3.08849 3.74474ZM2.4128 22.6273V6.47829L11.7312 14.6074L2.41752 22.7279C2.4128 22.6971 2.4128 22.6624 2.4128 22.6273ZM29.2838 24.9301H4.71624C4.29914 24.9301 3.90887 24.8204 3.57578 24.6278L13.4024 16.0641L14.3198 16.8622C15.0876 17.5293 16.0483 17.8672 17 17.8672C17.9566 17.8672 18.9173 17.5293 19.6849 16.8622L20.6019 16.0641L30.4247 24.6278C30.0911 24.8204 29.7009 24.9301 29.2838 24.9301ZM31.5872 22.6273C31.5872 22.6624 31.5872 22.6971 31.5827 22.7279L22.2691 14.6121L31.5872 6.4826V22.6273Z" fill="white"/>
+                </svg>
+                <a href="mailto:pph@podrumpalic.rs" class="footer__card-text footer__card-link">pph@podrumpalic.rs</a>
+              </div>
+            </div>
+            <div class="footer__bot">
+              <h4 class="h4 footer__bot-title">Write to us</h4>
+              <p class="footer__bot-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur magnam eaque accusantium. Recusandae, inventore omnis!</p>
+              <div class="footer__form">
+                <form action="https://formsubmit.co/pph@podrumpalic.rs" id="form" class="topBefore footer__form-item" method="POST">
+                  <input id="name" name="fullName" class="form__input" type="text" placeholder="NAME" required />
+                  <input id="email" name="email" class="form__input" type="text" placeholder="E-MAIL" required />
+                  <textarea id="message" name="textarea" class="form__textarea" placeholder="MESSAGE" required></textarea>
+                  <button type="submit" class="form__submit-btn ">
+                    <span class="langchange" data-key="footerSend">SEND!</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="none"><path stroke="#fff" class="form__submit-btn-mail" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 3.00005 8.2 7.65c1.0667.8 2.5333.8 3.6 0L18 3"/><path stroke="#fff" stroke-linecap="round" stroke-width="2" d="M17 1H3c-1.10457 0-2 .89543-2 2v10c0 1.1046.89543 2 2 2h14c1.1046 0 2-.8954 2-2V3c0-1.10457-.8954-2-2-2Z"/></svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="footer__outro">
+            <p>© Podrum Palic Hladnjaca. All right reserved. </p>
+            <p>Authored by <a href="">Petar Purac</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="panels js-panels">
+      <!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class="pph-logo-panel js-panel-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 448 512" style="enable-background:new 0 0 448 512;" xml:space="preserve" width="448" height="512">
+  <style type="text/css">
+    .st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+  </style>
+  <path class="st0 svg-elem svg-elem-1" d="M292,88.5c-1.2,1.9-3.6,0-2.8,1c0.4,0.4,0,1.4-0.8,2.3c-2.1,2.8-2.2-1.4-4.1-0.5c-0.4,0.5-0.1,1.2,0.7,1.8
+    c2.8,1.2-1.9,2-0.7,3.6c1.6,1.2,2.4-3.5,3.6-0.7c1.2,1.9,3,0.2,1.2-1c-2.6-0.9,1.6-4.3,2.8-2.9c0.8,0.6,0.8,0.6,0.1-0.3
+    c-0.7-0.8-0.4-1.8,0.7-3C294.9,86.3,293.5,86.7,292,88.5z M280.9,99.7c-3.4,3.9,3.8-2.1,1.7-1.7C282.4,98,281.6,98.8,280.9,99.7
+    L280.9,99.7z M286.7,106.7c0.6,8.4,1.1,8.8,1.2,1C288.2,99.9,286.2,98.6,286.7,106.7z M283.5,119.2c-3.3,2.7-3.1,7.2-4.1,10.8
+    c-0.6,2.1-0.4,2.3,0.7,1.2c1.6-1.5,11.3-1.6,14.1-0.1c1.9,1,2,0.9,1.3-0.7C294.3,125.5,289.9,112.2,283.5,119.2z"></path>
+  <path class="st0 svg-elem svg-elem-2" d="M280.1,132.6c-6.8,6.9-16.6,40-18.1,42.6c12.3-9.6,34.6-12.6,48.4-2.1c1.4,1.1,2.6,1.6,2.6,1.1
+    c0.2-2.3-9.7-19.6-9.5-20.2c1-1.6-6.6-19-9.2-21C291.1,130.5,283.4,130.3,280.1,132.6z M278,143c-1.3,10.9-3.4,14.4,6,21.8
+    c-4,0.6-8.9,1.5-12.7,3.2c-3.5,1.5-4.3,1.6-4.3,0.5c0-1.2,4.8-14.5,9.9-27.9C278.5,136.6,279,137.7,278,143L278,143z"></path>
+  <path class="st0 svg-elem svg-elem-3" d="M281,171c-12.7,1-19.9,9.6-28.7,15.7c-19.7,16.5,3.9,37.4-1.3,28.8c-24.9-34.4,49.4-48.6,69.5-27.3
+    c10.1,8.6,10.7,19.3,2.7,28.2c-0.4-0.9-2.3-9.6-3-7.1c0.8,15.3,9.3,3.5,9.8-6.4c0-5.7-3.2-12-8.3-16.4c-2.3-1.9-5.9-5.1-7.9-7.1
+    C306.8,172.4,291.4,168.8,281,171z"></path>
+  <path class="st0 svg-elem svg-elem-4" d="M282,185.6c-15.1,2.4-23.4,6.2-26.1,11.9c-0.9,1.7-0.8,1.8,0.3,0.5c6.3-7.3,16.6-11.1,30.3-11.1
+    c13.3-0.1,22.9,2.8,30.1,9C312.8,188.5,292.4,184.3,282,185.6L282,185.6z"></path>
+  <path class="st0 svg-elem svg-elem-5" d="M283.7,190.6c-0.9,0.9-0.7,7.1-0.7,9.1c4.5,0.3,16.2,1,18.8,1.9c2.1,0.6,2.2,0.3,2.2-3.9c0-4.5-0.1-4.6-3.7-5.6
+    C294.6,190.7,284.6,189.8,283.7,190.6L283.7,190.6z M271.5,192.8c-4.4,1.5-5,2.1-5.7,5.2c-1.2,5.5-0.6,6.1,4.4,4.5
+    c4-2,9.8-0.4,10-5.5C280.8,190.6,280.6,190.1,271.5,192.8z M203.7,193.7c2.3,0.8,5.3,2.5,6.5,3.9c8.7,7.2,5.4-3.7,13-2.6
+    c9.8-0.4-6.4-5.3-8.1-0.9c0,0-2.4,2.3-2.4,2.3c-2.7-5.7-7.1-4.2-13.2-4.2C199.5,192.2,203.7,193.7,203.7,193.7z M306.4,196.6
+    c1,2.7-0.4,7,3.4,8.5c2.6,1.2,6.7,4.1,9.2,6.1v-3.3C321.2,204.8,305.8,190.3,306.4,196.6L306.4,196.6z M259.1,200.2
+    c-4.4,4.1-6.1,8.6-7.2,14.1c2.6-2.3,7.8-6.9,9.9-8.5c2.3-1.1,2.9-7.5,1.4-8.8C262.7,197,260.9,198.4,259.1,200.2z M177,211.7
+    c-2,0.2-5.5,7.2-7.7,4.5c-5.5-4.7-9.9-2.4-15.8-0.7c4.5,0.4,10.8,1,14,4c14.7,8.3,1.4-6.5,22-5.7C185.7,212.3,180.1,210.2,177,211.7
+    L177,211.7z M288.5,216.9c-7.9,6.1-5.3,2.2-5.6,24c0.6,32,2.8,90.1,3,78.6c1.2-3.9-4.4-96-0.2-92.3c2.8-3.7,8.7-3.8,11.5-0.2
+    c1.7,2.3,1.9,5.9,2.5,54c0.8,56.7,1.2,54.8,3.3-16.4c0.9-31.2,0.9-40.5-0.1-42.8C300.9,217,294.1,214.7,288.5,216.9L288.5,216.9z
+     M265.5,218.8c-12.6,9-5.7,4.9-3,73.2c2.6,36.2,3,54.3,2.7-5.5c-0.5-52.6-0.3-55.2,3.9-59.1c4.3-3.8,4.6-1.6,6.4,38.6
+    c0.9,20.6,2,42,2.4,47.5c0.8,9.9,0.8,9.9,0.9,2.5c-0.1-1.3-2.3-99.2-5.4-93.7C271.2,219.4,268.5,218.2,265.5,218.8L265.5,218.8z
+     M310.6,223.5c-1.1,0.7-2.7,8.6-0.7,6.6c5.5-3.8,6.2,7.3,5.7,18.9c-0.6,11.3-1.2,53.9-1.5,71.5c1.4-17.5,3.7-50.2,4.8-64
+    C320.9,231,321.1,215,310.6,223.5L310.6,223.5z M253.5,236c3,21.8,4.4,73.3,10.3,94.5C262.1,315.3,253.8,202.6,253.5,236L253.5,236z
+     M307.9,239.1c0.2,19.9-3.1,71.1-2.4,83.8c0.2-0.3,0.9-9.3,1.3-19.9c0.6-12.8,1.3-19.5,2.1-19.8c1.4-0.5,1.5-3.2,0.1-3.2
+    c-1.3,0.2-1.3-11.2,0-11c0.6,0,1-0.7,1-1.5s-0.4-1.5-1-1.5c-1.2,0-1.4-8.7-0.2-9.4C310.1,256.3,308.9,217.3,307.9,239.1L307.9,239.1
+    z"></path>
+  <path class="st0 svg-elem svg-elem-6" d="M291,236c-0.2,4,3.2,4,3,0C294.2,232,290.8,232,291,236z M271,238.4c-0.1,1.7,1.8,2.2,2,0.7
+    C273.1,238,271.1,236.3,271,238.4z M291,250c-0.2,4,3.2,4,3,0C294.2,246,290.8,246,291,250z M271,251.5c0,2,2,1.9,2,0
+    C273,249.6,271,249.5,271,251.5z M151,256.8c-3.5,1.1-4.1,2.5-1.8,3.6c2.2,1.1,2.3,1.7,2.6,15.9c0.2,9.6-0.1,14.7-0.8,14.7
+    c-4.1,1.7-9.4,8.7,1.2,7.4c5.7-0.1,6.3-0.3,6.6-2.2c0.9-2.5-3.7-4.5-5.8-5.7c0.3-5.6-0.6-32,2.8-30
+    C161.7,258.4,153.7,256.3,151,256.8L151,256.8z M291,264c-0.2,4,3.2,4,3,0C294.2,260,290.8,260,291,264z M272.2,266
+    c0.1,3.5,1-0.2,0.5-1.3C272.4,264.1,272.2,264.6,272.2,266z M291,279c-0.2,4,3.2,4,3,0C294.2,275,290.8,275,291,279z M272.2,279.5
+    c0,1.6,0.2,2.2,0.5,1.2C273.2,279.2,272.3,275.1,272.2,279.5z M291,293c-0.2,4,3.2,4,3,0C294.2,289,290.8,289,291,293z M272,294
+    c0,3.9,2.1,3.8,2,0C274.1,290.1,272,290.1,272,294z M308,295.5c0,2,2,1.9,2,0C310,293.6,308,293.5,308,295.5z M148.3,301.7
+    c-2.8,0.5-4.6,3-11.8,16.8c-3.1,6-6.3,11.6-6.9,12.4c-0.9,1.2-0.7,1.3,0.9,0.7c7.8-2.9,30.3-3.6,39.5-1.1c3,0.8,5.6,1.5,5.8,1.5
+    c-2.1-4-5.4-8.6-9.7-17.2C158.2,301,159.3,300.7,148.3,301.7L148.3,301.7z M145,311.1c-2.4,9.7-1.6,11.4,6.5,14
+    c3.9,1.3,3.9,1.4-6.5,1.9c-5.8,0.4-10.6,0.5-10.8,0.5c-0.3-0.3,1.7-4.8,6.6-14.4C145.1,305.2,147.1,301.8,145,311.1z M291,307
+    c-0.2,4,3.2,4,3,0C294.2,303,290.8,303,291,307z M273.2,308c0.1,3.5,1-0.2,0.5-1.3C273.4,306.1,273.2,306.6,273.2,308z M308,309.5
+    c-0.1,3.3,2,2,2,0C310,307.5,307.9,306.2,308,309.5z M291,322c-0.2,4,3.2,4,3,0C294.2,318,290.8,318,291,322z M273,322
+    c0,2.6,2.1,2.6,2,0C275.1,319.4,273,319.4,273,322z M173,321.6c0.1,0.8,3.6,6.7,4.5,8.4c13.1-0.6,90.1,1.6,83-1.8
+    c-0.7-1.5-1.5-5.1-1.7-7.2C243.4,321.1,176.5,320.7,173,321.6L173,321.6z M208.4,327.9c0.6,2-5.7-0.8-2.1-0.9
+    C207.2,327,208.1,327.4,208.4,327.9L208.4,327.9z M222.5,328c-5.2,2.6-8.2-1.2-1.7-0.9C223.8,327.1,224.1,327.3,222.5,328z
+     M232,327.4c0,0.4-3,1.9-3,0.6C228.8,326.8,231.8,326.8,232,327.4z M308,324.2c-0.3,4.5,3.6-2.9,1-2.2C308.5,322,308,323,308,324.2z
+     M313.3,326c0.1,6.4,0.9-0.6,0.4-2.3C313.5,322.5,313.3,323.5,313.3,326z M279.2,328c0.1,3.5,1-0.2,0.5-1.3
+    C279.4,326.1,279.2,326.6,279.2,328z M279.2,333c0.1,3.5,1-0.2,0.5-1.3C279.4,331.1,279.2,331.6,279.2,333z"></path>
+  <path class="st0 svg-elem svg-elem-7" d="M139.5,332.6c-4.8,1.4-11.8,1.6-13,8.4c-7.3,15.9-19.4,13.5,6.6,8.9c15.1-2.2,50.9,0.6,54.3,4.2
+    c1.2,1.2-0.6,1.1-16.3-1.1c-6.2-1.4-57.2-1.4-52.5,5.1c1.3,1.4,1.6,6.2,2.1,29.3c0.5,20.6,0.3,27.6-0.5,27.6c-0.7,0-1.2,0.6-1.2,1.2
+    c0,0.7-1.1,2-2.3,2.9c-10.5,3.5-64.9,4.1-69.2,6.4c-19.7-1,507,4,275.8-4.5c-0.6-13.7-2-41.3-2.6-55c-8.3,0-24.9,0.2-33.2,0.3
+    c5.5,0.4,27.6,1.3,29.2,2.1c0.4,0.4,5.3,36.1,5.3,38.8c-0.4,1.1-8.9,0.7-11,0.8c0.2,2.8-0.8,12.6,1.8,12.3c2.4,0.7-3,0.6-3.5,0.7
+    c-0.1-5.5,0.6-21.2-2-22.8c-10.6-13.8-32.2-6.9-30.1,12.9c-0.4,9.4-0.5,9.9-2.5,9.8c-1.7-0.1-1.8-0.2-0.4-0.6
+    c2.4,0.3,1.5-9.6,1.7-12.3h-13c-0.2-2.3,0-29.7-1-18.5c-1.1,7.7-0.4-22.5-0.5-25c12-0.2,57.8-0.7,61.8-1.9c1.9-0.9,2.3-2.6,0.7-2.6
+    c-1.3,0-7.1-4-9-5.3l-0.2-11.1c-0.1-11-0.2-10.7-1.4,3.1c-0.5,6.8-0.7,7.2-2.5,6.2c-1.5-0.8-3.2-0.4-7.5,1.7
+    c-6,3.8-16.9,2.4-22.5-0.5c-5-3.1-5.1-2.8-8.9,2.4c-3,4.4-6.9,6.4-5.6,2.9c0.9-2.6-5.4,3.1-6.2,3.6c-1.4-2.1-17.3-17.6-7.2-6.7
+    c0,0,6.5,6.7,6.5,6.7s0.3,7.5,0.3,7.5c0.9,9.2-1.9,10.2-1.8,1.4c0-3.3-0.5-7-1.1-8.2c-1.4-2.8-15.8-17.2-20.4-21.7
+    c0,0-31.2,0-31.2,0l-8,7.5c-8.3,7.7-12,10-6.7,4.3c1.6-1.9,1.9-2.4,0.6-1.4c-2.2,1.9-2.3,1.9-5-0.7c-1.6-1.5-3.4-2.7-4.2-2.7
+    c-0.7,0-1-0.3-0.7-0.6c0.6-1.7-2.7-5-2.3-7.2c0,0,0-2.3,0-2.3c12.9-0.3,53.4,2.3,58.5,1.1c0.4-1.2,27.5-0.6,27-2
+    c4.7-1.5-95.4-0.4-88.9-2.1c1.3-1.9-4.2,0.9-3.2-0.7C169.6,331.1,144.4,332.8,139.5,332.6L139.5,332.6z M140,337
+    c0.2,2.8,6.6,5.5,9.5,6.9c-4.9-0.1-14,0.1-17.8,1.2c-2.2,0.6-4.1,0.8-4.4,0.5c-0.4-2.4,2.1-10.1,5.8-10.3
+    C137.7,333.7,139.3,334.1,140,337L140,337z M176.7,340c0.5,1.9-1.8,2.8-1.2,1c0.3-0.6-0.4-1-1.7-1.1c-5.1,0.1,2.7-1.4,2.7-1.8
+    C176.6,338,176.6,338.9,176.7,340z M235.2,347.1c28.1,12,22.2,41.1,17.5,73.9h-61.4c-2.7-13.6-5.7-44.4-4.7-51
+    C189.9,350.9,215.9,338.6,235.2,347.1z M177.5,346c-4.1,1.5,3.2,0.5,1.7,1.7c-1.8,0.7-4.4-0.5-3.7-1.7
+    C175.8,344.9,181,344.6,177.5,346z M153.3,356.7c0.6,1-4.1,8.3-5.3,8.3c-0.5,0-2.1-1.7-3.4-3.7c-1.9-2.8-2.2-3.9-1.3-4.5
+    C144.8,355.8,152.7,355.8,153.3,356.7z M164.9,356.6c1.7,0.4,3.1,1.1,3.1,1.7c0,1.6-4.4,7.7-5.5,7.7c-1.3,0-5.5-6.5-5.5-8.5
+    C157,355.9,159.6,355.6,164.9,356.6L164.9,356.6z M140,357.4c0,0.7-5.2,9.6-5.6,9.6c-0.4-0.1-6.9-8.9-4.2-9.1
+    C131.5,357.1,140,356.6,140,357.4z M177.8,358c1.5,0,1.5,2.1,0,5.5c-1.5,3.3-2.4,3.2-4.3-0.5C169.6,355.7,174,357.4,177.8,358z
+     M128,358.5c0,1.1-3.4,7.5-4,7.5c-0.7,0-3-4.5-3-6C121.3,358.4,128.9,357.7,128,358.5z M184.4,359.6c1.8,0.7,2.1,3.2,0.6,5.4
+    C182.7,368.7,177.6,355.9,184.4,359.6z M175,369.9c2.3,1.1,2.3,1.1-0.9,0.6c-1.8-0.3-12.4-0.6-23.5-0.7c-13.4-0.1-18.4-0.4-15.1-0.9
+    C142.6,367.9,172,368.6,175,369.9z M127.7,392.6c1.5-9.7-0.2-18.2,3.7-16c1.4,0.5,1.6,2.9,1.6,19.5V415h-8
+    c0.1-9.8,0.3-29.7,0.4-39.5c0.3,8.2,0.9,24.8,1.1,33C126.5,408.5,127.7,392.6,127.7,392.6z M154,396.6c0,15.7-0.2,18.4-1.5,18.4
+    s-1.5-2.8-1.5-19.6c0-17.4,0.2-19.5,1.5-18.4C153.7,378,154,381.5,154,396.6z M165.7,377.8l4.8-0.3l0.3,17.9
+    c0.3,20.2-0.1,21.6-6.5,21.6c-6.1,0-6.3-0.7-6.3-22.1c0-16.7,0.2-19,1.5-17.9C160.3,377.7,162.9,378,165.7,377.8z M177.3,382
+    l0.4,4.5c0.1-2.1-0.3-11.1,1.8-10.5c2.6-2.5,0.8,32.3,1,38.5c-1.4,0.2-4.1,0.5-5.5,0.6C175.3,410,173.9,361.6,177.3,382z M146.8,395
+    c0.2,19.6,0,25.5-7.8,20.7c-2.7,1.6-1.9-31.7-2-38.7c2.4,0.1,7.1,0.4,9.5,0.6C146.5,377.6,146.8,395,146.8,395z M298.4,396
+    c9.5,0,4.2,42.8,3.6,15.5c0-8.8-0.2-9.8-2.5-12c-2.4-2.5-7.8-3.4-8.9-1.7c-0.3,0.5,0.8,0.6,2.4,0.4c7,0.6,8.1,3.6,8,13.8
+    c0,7.3-0.3,9-1.5,9s-1.5-1.7-1.5-8.8c0.5-8.4-2.9-17.5-5.9-7.7c0.3-10.5-6.4,0-5.1,8.2c0,6.7-0.3,8.3-1.5,8.3s-1.5-1.7-1.5-9.3
+    C283.7,397.8,288,393.3,298.4,396L298.4,396z M293.1,420.3c-0.8,0.8-1.1-0.4-1.1-4C292.4,399.6,295.2,417.4,293.1,420.3L293.1,420.3
+    z M269.3,418.7c-0.7,0.2-1.9,0.2-2.5,0C265,418,270.9,418,269.3,418.7z M319.3,418.7c-0.7,0.2-1.9,0.2-2.5,0
+    C315,418,320.9,418,319.3,418.7z"></path>
+  <path class="st0 svg-elem svg-elem-8" d="M213.5,333c-45.5,0.6-43.3,1,10.3,1.6C275.7,336,284,331,213.5,333L213.5,333z M291,336c-0.2,4,3.2,4,3,0
+    C294.2,332,290.8,332,291,336z M273,336.5c0,3.3,2.1,3.2,2,0C275.1,333.3,273,333.2,273,336.5z M308,338c0,2.6,2.1,2.6,2,0
+    C310.1,335.4,308,335.4,308,338z M249.7,342l-5.8,0.5c2.7,2.5,14.5,15.5,15.7,13.4c0.8-0.7,1.3-0.6,1.7,0.3c2.2,2.6,2.8-3.2,2.5-7.8
+    c-0.3-6.7-0.4-6.9-3-7.1c-1.5-0.1-3,0.3-3.4,0.9c-0.4,0.5-0.9,0.6-1.3,0.2C255.8,341.9,252.9,341.7,249.7,342L249.7,342z M182,342.8
+    c-0.4,0.4,4.6,5.7,5,4.9c0-0.4,1.1-0.2,2.4,0.3c2.6,1.8,6.8-3.9,9-6C195.4,342,182.6,341.8,182,342.8z M190.5,346
+    c0.7,1.5-1.6,1.1-1.5,0C189,344.4,189.9,344.9,190.5,346z M243.2,346c0.7,1.1,1.9,2.2,2.8,2.5C247.9,348.8,239.6,340.7,243.2,346
+    L243.2,346z M266.3,374.5c0,3.8,0.2,5.3,0.4,3.2C267.2,374.9,266.4,364.4,266.3,374.5z M263.2,375.5c0,1.6,0.2,2.2,0.5,1.2
+    C264.2,375.2,263.3,371.1,263.2,375.5z"></path>
+  </svg>
+  <!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class="pph-signature" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 820 200" style="enable-background:new 0 0 820 200;" xml:space="preserve" width="820" height="200">
+  <style type="text/css">
+    .st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+  </style>
+  <path class="st0 svg-elem2" d="M458.9,50.7c-14.3,15.8-31.7,61.6-29.4,77.3c0.9,5.8,2.1,8,4.4,8c2.4,0,4-2.5,9-14.4
+    c6.4-15.4,11.4-20.6,16.7-17.1c3,1.9,3,3.8,0.2,14.8c-2.1,8-2.1,9-0.8,11.5c3.4,6,13.1,4.8,20.5-2.6c4.2-4.2,9.7-13.1,8.8-14.5
+    c-0.3-0.5-1.8,1.3-3.3,4c-3.3,5.8-10.8,13-14.6,13.9c-2,0.5-3.1,0.2-4.1-1.1c-1.8-2.5-1.7-3.4,1.2-11.7c4.8-13.8,2.4-22.4-6.4-22.2
+    c-7.4,0.2-15.1,8.6-20.8,22.8c-1.4,3.4-2.7,6.3-3,6.6c-1.2,1.1,0.6-16.8,2.1-21.5c1.2-3.6,2.6-5.7,5.1-7.5
+    c7.9-5.6,19.3-23.7,23-36.4C471,48.7,466,42.9,458.9,50.7L458.9,50.7z M464.6,59.2c-1.9,9.7-18.6,37.1-21.1,34.6
+    c-1.5-1.4,9.8-24.3,16.2-33C463.8,55.2,465.5,54.6,464.6,59.2z M340.5,88c-0.3,0.6-1.5,7-2.5,14.3c-2.5,17.9-5.3,29.9-10.1,44.4
+    c-4.4,13.3-4.7,17.6-1.2,18.1c1.8,0.3,2.5-0.6,4.3-5.5c2-5.2,9.6-32.7,11.4-41c1.1-4.9,8-14.9,12.7-18.3c4.1-2.9,9-3.9,11.5-2.2
+    c3.5,2.3,4.3,9.3,1.9,16.3c-3.2,8.9-10.1,15.2-19.8,17.9c-5.7,1.6-6,1.8-3.4,2.5c14.3,3.8,31.6-12.2,31.7-29.2
+    c0-5.6-0.3-6.6-3.1-9.8c-2.8-3.2-3.6-3.5-8.4-3.5c-6.4,0-11.7,3.4-17.1,11.2c-2.4,3.5-3.4,4.5-3,2.8c1.1-4.4,1.7-15.5,0.9-16.6
+    C345.1,87.7,341.3,86.8,340.5,88L340.5,88z M387.5,88c-0.3,0.6-1.5,7-2.5,14.3c-2.5,17.9-5.3,29.9-10.1,44.4
+    c-4.4,13.3-4.7,17.6-1.2,18.1c1.8,0.3,2.5-0.6,4.3-5.5c2-5.2,9.6-32.7,11.4-41c1.1-4.9,8-14.9,12.7-18.3c4.1-2.9,9-3.9,11.5-2.2
+    c3.5,2.3,4.3,9.3,1.9,16.3c-3.2,8.9-10.1,15.2-19.8,17.9c-5.7,1.6-6,1.8-3.4,2.5c14.3,3.8,31.6-12.2,31.7-29.2
+    c0-5.6-0.3-6.6-3.1-9.8c-2.8-3.2-3.6-3.5-8.4-3.5c-6.4,0-11.7,3.4-17.1,11.2c-2.4,3.5-3.4,4.5-3,2.8c1.1-4.4,1.7-15.5,0.9-16.6
+    C392.1,87.7,388.3,86.8,387.5,88L387.5,88z"></path>
+  </svg>
+  
+    </div>
+  </body>
+</html>
