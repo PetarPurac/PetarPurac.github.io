@@ -1694,12 +1694,12 @@ body.active:before {
 }
 @media (max-width: 991px) {
   .footer__wrapper {
-    padding: 80px 0 40px;
+    padding: 90px 0 40px;
   }
 }
 @media (max-width: 767px) {
   .footer__wrapper {
-    padding: 70px 0 30px;
+    padding: 90px 0 30px;
   }
 }
 
@@ -2721,12 +2721,12 @@ body.active:before {
 
 @media (max-width: 991px) {
   .about__wrap {
-    padding: 80px 0;
+    padding: 90px 0 80px;
   }
 }
 @media (max-width: 767px) {
   .about__wrap {
-    padding: 70px 0;
+    padding: 100px 0 70px;
   }
 }
 .about__heading {
