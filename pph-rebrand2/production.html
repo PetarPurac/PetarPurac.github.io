@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Podrum Palić Hladnjača - Zamrznuta Višnja | Zamrznuta Paprika</title>
+    <meta name="description" content="Logo Ipsum Website">
+    <meta name="keywords" content="Logo Ipsum, Logo Ipsum Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Petar Purać">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script defer src="js/app.js"></script><link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <a href="#main-content" class="skip-link" aria-label="Skip from Navigation to Content">Skip to Content</a>
+    <header class="header header--secondary js-header">
+      <div class="wrap wrap--sm">
+        <div class="header__wrap">
+          <a href="index.html" class="header__logo header__logo--white">
+            <img src="./images/content/logo-dark.png" alt="" class="header__logo-img">
+          </a>
+          <nav class="nav js-nav">
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <a href="index.html" class="nav__list-link nav-link-hover js-mobile-link langchange" data-key="navLink1">Pocetna</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="index.html#about" class="nav__list-link nav-link-hover js-mobile-link langchange" data-key="navLink2">O Nama</a>
+              </li>
+              <li class="nav__list-item nav__list-item--level">
+                <button class="nav__list-link nav-link-hover nav__list-btn js-nav-btn langchange" data-key="navLink4">Proizvodi</button>
+                <ul class="nav__list-level js-nav-level">
+                  <li class="nav__list-item">
+                    <a class="nav__list-link nav-link-hover js-mobile-link langchange" href="sour-cherry.html" data-key="navDd1">Visnja</a>
+                  </li>
+                  <li class="nav__list-item">
+                    <a class="nav__list-link nav-link-hover js-mobile-link langchange" href="pepper.html" data-key="navDd2">Paprika</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__list-item">
+                <a href="production.html" class="nav__list-link nav-link-hover js-mobile-link langchange" data-key="navLink3">Proizvodnja</a>
+              </li>
+            </ul>
+            <div class="header__cta header__cta--mobile">
+              <a href="#contact" class="header__cta-btn cta cta--white js-mobile-link langchange" data-key="contactCTA">Kontakt</a>
+              <button class="header__langs"></button>
+              <div class="langs">
+                <input
+                  type="radio"
+                  id="lang_en"
+                  name="lang"
+                  data-value="en"
+                  class="inputEn lang__input"
+                />
+                <label class="hidden" for="lang_en">EN</label>
+                <input
+                class="inputRs lang__input"
+                  type="radio"
+                  id="lang_rs"
+                  name="lang"
+                  data-value="rs"
+                />
+                <label class="hidden" for="lang_rs">RS</label>
+                </div>
+            </div>
+          </nav>
+          <div class="header__cta header__cta--desktop">
+            <a href="#contact" class="header__cta-btn cta cta--white langchange" data-key="contactCTA">Kontakt</a>
+            <button class="header__langs js-header-langs"></button>
+            <div class="langs js-langs">
+              <div class="lang-holder">
+                <input
+                type="radio"
+                id="lang_en2"
+                name="lang"
+                data-value="en"
+                class="inputEn lang__input"
+                />
+                <label for="lang_en2" class="lang__input-label">EN</label>
+              </div>
+              <div class="lang-holder">
+                <input
+                class="inputRs lang__input"
+                type="radio"
+                id="lang_rs2"
+                name="lang"
+                data-value="rs"
+                />
+                <label for="lang_rs2" class="lang__input-label">RS</label>
+              </div>
+              </div>
+          </div>
+          <button type="button" class="header__hamburger js-hamburger">
+            <svg class="ham hamRotate ham8 js-hamburger-icon" viewBox="0 0 100 100" width="50">
+              <path
+                    class="line top"
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+              <path
+                    class="line middle"
+                    d="m 30,50 h 40" />
+              <path
+                    class="line bottom"
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main js-main" id="main-content">
+    <section class="bannerholder banner--noslider">
+        <div class="banner banner--secondary">
+            <div class="wrap wrap--sm">
+                <div class="banner__wrap">
+                    <div class="banner__heading-holder">
+                        <div style="overflow: hidden;">
+                          <h1 class="h1 banner__heading langchange" data-aos="fade-up" data-aos-delay="300" data-key="productionTitle">Our Production Unit</h1>
+                        </div>
+                        <p class="banner__description langchange" data-key="productionSubtitle">Where quality meets innovation</p>
+                        <a href="#production" class="cta cta--gray cta-arrow"><span class="langchange" data-key="productionBannerCta">Pogledajte više</span><span class="icon"></span></a>
+                    </div>
+                    <div class="banner__mouse">
+                        <span class="banner__mouse-line">
+                            <span class="banner__mouse-line--inner"></span>
+                        </span>
+                        <img src="./images/content/mouse.png" alt="mouseImg" class="banner__mouse-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-img">
+            <div class="banner-img__holder js-banner-img-holder" >
+                <img src="https://pph.rs/assets/images/proizvodnja7__img.png" alt="banner-img" class="banner-img__item" >
+            </div>
+        </div>
+    </section>
+    <section class="activity" id="production">
+        <div class="wrap wrap--sm">
+          <div class="activity__wrap">
+            <div class="activity__text">
+              <span class="activity__tag tag tag--red langchange" data-aos="tagbar" data-aos-delay="200" data-key="productionActivityTag">Production</span>
+              <div style="overflow: hidden;">
+                <h2 class="activity__title langchange" data-aos="fade-up" data-aos-delay="300" data-key="productionActivityTitle">What we do</h2>
+              </div>
+              <div class="activity__details">
+                <div class="activity__detail" data-aos="fade-up" data-aos-delay="300">
+                  <div class="activity__detail-img">
+                    <img src="./images/content/mouse.png" alt="activity" class="activity__detail-img-item">
+                  </div>
+                  <h5 class="activity__detail-title langchange" data-key="productionActivityItem1Title">FSSC 22000 & HACCP</h5>
+                  <div class="activity__detail-desc">
+                    <span class="activity__detail-text langchange" data-key="productionActivityItem1Text1">
+                      Our factory has
+                    </span>
+                    <div class="activity__detail-holder">
+                      <button type="button" class="activity__detail-btn js-certificate-popup">
+                        FSSC22000
+                      </button>
+                      <div class="activity__detail-certificate">
+                        <div class="activity__detail-wrap">
+                          <button class="activity__detail-certificate-close js-certificate-close">
+                            <svg fill="#000000" height="32px" width="32px" version="1.1" id="Layer_1-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1792 1792" xml:space="preserve"><g id="SVGRepo_bgCarrier1" stroke-width="0"></g><g id="SVGRepo_tracerCarrier1" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier1"> <path d="M1082.2,896.6l410.2-410c51.5-51.5,51.5-134.6,0-186.1s-134.6-51.5-186.1,0l-410.2,410L486,300.4 c-51.5-51.5-134.6-51.5-186.1,0s-51.5,134.6,0,186.1l410.2,410l-410.2,410c-51.5,51.5-51.5,134.6,0,186.1 c51.6,51.5,135,51.5,186.1,0l410.2-410l410.2,410c51.5,51.5,134.6,51.5,186.1,0c51.1-51.5,51.1-134.6-0.5-186.2L1082.2,896.6z"></path> </g></svg>
+                          </button>
+                          <img class="activity__detail-certificate-img" src="https://pph.rs/assets/images/RIA.png" alt="cerfiticate fssc 22000">
+                        </div>
+                      </div>
+                    </div>
+                    <span class="activity__detail-text langchange" data-key="productionActivityItem1Text2">
+                      and
+                    </span>
+                    <div class="activity__detail-holder">
+                      <button type="button" class="activity__detail-btn js-certificate-popup">
+                        HACCP
+                      </button>
+                      <span class="langchange" data-key="productionActivityItem1Text3">certification</span>
+                      <div class="activity__detail-certificate">
+                          <div class="activity__detail-wrap">
+                          <button class="activity__detail-certificate-close js-certificate-close">
+                            <svg fill="#000000" height="32px" width="32px" version="1.1" id="Layer_1-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1792 1792" xml:space="preserve"><g id="SVGRepo_bgCarrier2" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier2"> <path d="M1082.2,896.6l410.2-410c51.5-51.5,51.5-134.6,0-186.1s-134.6-51.5-186.1,0l-410.2,410L486,300.4 c-51.5-51.5-134.6-51.5-186.1,0s-51.5,134.6,0,186.1l410.2,410l-410.2,410c-51.5,51.5-51.5,134.6,0,186.1 c51.6,51.5,135,51.5,186.1,0l410.2-410l410.2,410c51.5,51.5,134.6,51.5,186.1,0c51.1-51.5,51.1-134.6-0.5-186.2L1082.2,896.6z"></path> </g></svg>
+                          </button>
+                          <img class="activity__detail-certificate-img" src="https://pph.rs/assets/images/HACCP.png" alt="cerfiticate fssc 22000">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="activity__detail" data-aos="fade-up" data-aos-delay="350">
+                  <div class="activity__detail-img">
+                    <img src="./images/content/mouse.png" alt="activity" class="activity__detail-img-item">
+                  </div>
+                  <h5 class="activity__detail-title langchange" data-key="productionActivityItem2Title">8 chambers</h5>
+                  <p class="activity__detail-desc langchange" data-key="productionActivityItem2Text">Get paid quickly & spend yourearnings hassle-free.</p>
+                </div>
+                <div class="activity__detail" data-aos="fade-up" data-aos-delay="400">
+                  <div class="activity__detail-img">
+                    <img src="./images/content/mouse.png" alt="activity" class="activity__detail-img-item">
+                  </div>
+                  <h5 class="activity__detail-title langchange" data-key="productionActivityItem3Title">Packaging of product</h5>
+                  <p class="activity__detail-desc langchange" data-key="productionActivityItem3Text">Get paid quickly & spend yourearnings hassle-free.</p>
+                </div>
+                <div class="activity__detail" data-aos="fade-up" data-aos-delay="450">
+                  <div class="activity__detail-img">
+                    <img src="./images/content/mouse.png" alt="activity" class="activity__detail-img-item">
+                  </div>
+                  <h5 class="activity__detail-title langchange" data-key="productionActivityItem4Title">Optical sorting</h5>
+                  <p class="activity__detail-desc langchange" data-key="productionActivityItem4Text">Get paid quickly & spend yourearnings hassle-free.</p>
+                </div>
+              </div>
+              <a href="#contact" class="activity__cta cta cta--arrow cta--red" data-aos="fade-up" data-aos-delay="450"><span class="langchange" data-key="contactCTA">Kontakt</span> <span class="icon"></span></a>
+            </div>
+            <div class="activity__content">
+              <div class="activity__content-card card activity__content-card--big" data-aos="zoom-in" data-aos-delay="0">
+                <p class="langchange" data-key="productionActivityCardText">
+                  Podrum Palić cold store has a total processing capacity of 7.000 tons. Annual production of IQF sour cherry is 2.000 tons and 5.000 tons of IQF pepper. The cold store has a total storage capacity of 6.000 tons. 
+                </p>
+                <!--/* <img class="activity__content-card-img" src=./images/content/sour-cherry.png" alt=""> */-->
+              </div>
+              <div class="activity__content-logo">
+                <img src="./images/content/logo-dark.png" alt="Podrum palic hladnjaca logo" class="activity__content-logo-item">
+              </div>
+              <div class="activity__content-card card activity__content-card--sm activity__content-card--second"  data-aos="zoom-in" data-aos-delay="400">
+                <!-- <p>
+                  text or image/icon content goes here
+                </p> -->
+                <img class="activity__content-card-img" src="./images/content/proizvodnja6__img.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="text-image">
+        <div class="wrap wrap--sm">
+          <div style="overflow: hidden;">
+            <h3 class="text-image__title langchange" data-aos="fade-up" data-aos-delay="300" data-key="productionTextImageTitle">Više o samoj proizvodnji</h3>
+          </div>
+          <div class="text-image__wrap">
+            <div class="text-image__content">
+              <div class="text-image__image">
+                <!--/* <div class="el" data-aos="cherry" data-aos-delay="600"></div> */-->
+                <img src="./images/content/proizvodnja4__img.png" alt="img" class="text-image__image-item" data-aos="zoom-in" data-aos-delay="300">
+              </div>
+              <div class="text-image__text">
+                <p class="text text--body text-image__text-title langchange" data-key="productionTextImageText2">
+                  Packaging of product is done with the most modern methods and equipment such as: automatic scale, metal detector and two optical sorting machines (one before and one after freezing tunnel).
+                </p>
+                <p class="text text--body text-image__text-title langchange" data-key="productionTextImageText3">
+                  Packaging of product is done with the most modern methods and equipment such as: automatic scale, metal detector and two optical sorting machines (one before and one after freezing tunnel).
+                </p>
+                <p class="text text--body text-image__text-title langchange" data-key="productionTextImageText4">
+                  IQF product is stacked on EUR pallets in a chamber at optimal temperatures from -18 ° C to - 24 ° C until delivery.</p>
+              </div>
+            </div>
+            <div class="text-image__content">
+              <div class="text-image__text">
+                <p class="text text--body text-image__text-title langchange" data-key="productionTextImageText1">
+                  The entire production process is automated and starts with
+                  the lines for fruit reception, washing, sorting, calibration and
+                  freezing. The optimal freezing capacity is 5 t/h, and
+                  production process is performed with machines by
+                  internationally recognized manufacturers.                </p>
+              </div>
+              <div class="text-image__image">
+                <!--/* <div class="el" data-aos="cherry" data-aos-delay="600"></div> */-->
+                <img src="./images/content/proizvodnja5__img.png" alt="img" class="text-image__image-item" data-aos="zoom-in" data-aos-delay="300">
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contact">
+      <div class="wrap wrap--sm">
+        <div class="footer__wrapper">
+          <!-- <h3 class="h3 footer__heading langchange" data-key="footerHeading">Kontaktirajte nas</h3> -->
+          <div class="footer__content">
+            <div class="footer__info">
+              <a href="/" class="footer__logo header__logo header__logo--white">
+                <img src="./images/content/logo-dark.png" alt="" class="header__logo-img">
+              </a>
+              <p class="footer__intro langchange" data-key="footerIntro">Discover a new level of taste</p>
+              <div class="footer__card">
+                <svg width="26" height="34" viewBox="0 0 26 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1217 -0.012207C6.15219 -0.012207 0.25 5.92345 0.25 12.9551C0.25 20.3182 7.09091 27.8481 11.6926 33.1404C11.7101 33.1617 12.4539 33.9878 13.3703 33.9878H13.4516C14.368 33.9878 15.1064 33.1617 15.125 33.1404C19.4435 28.1759 25.75 19.9904 25.75 12.9551C25.75 5.92345 21.1462 -0.012207 13.1217 -0.012207ZM13.5477 31.7151C13.5105 31.7523 13.4563 31.7938 13.4085 31.8283C13.3596 31.7948 13.3065 31.7523 13.2672 31.7151L12.7115 31.076C8.34891 26.0711 2.375 19.2175 2.375 12.9551C2.375 7.07786 7.2965 2.11226 13.1217 2.11226C20.3775 2.11226 23.625 7.55757 23.625 12.9551C23.625 17.7092 20.234 24.0215 13.5477 31.7151ZM13.0372 6.42176C9.51656 6.42176 6.66215 9.27617 6.66215 12.7968C6.66215 16.3174 9.51656 19.1718 13.0372 19.1718C16.5577 19.1718 19.4122 16.3174 19.4122 12.7968C19.4122 9.27617 16.5577 6.42176 13.0372 6.42176ZM13.0372 17.0468C10.6938 17.0468 8.73825 15.0939 8.73825 12.75C8.73825 10.4067 10.6449 8.50001 12.9882 8.50001C15.3332 8.50001 17.2382 10.4067 17.2382 12.75C17.2393 15.0939 15.3821 17.0468 13.0372 17.0468Z" fill="white"/>
+                </svg>
+                <p class="footer__card-text">Josipa Kolumba 33, <br>Palić 24413, Serbia</p>
+              </div>
+              <div class="footer__card">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <rect width="34" height="34" fill="url(#pattern0)"/>
+                  <defs>
+                  <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                  <use xlink:href="#image0_7_18" transform="scale(0.0078125)"/>
+                  </pattern>
+                  <image id="image0_7_18" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAt1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8QiqlJAAAAPHRSTlMAFfsDBe3V0oYYCQ/ZGvjdv+bMgjn14XpAxXVfUDO5fW9ks7Ar6iWinJlWpiEe8VoMlItLL45rRapoB4iuR7U3AAAHMUlEQVR42uzY2XbaMBAA0PHaGIPZiQGzUyCUJQ0hTdL5/+9qe46kQWLAMqdJX3ofWTySNaORDf/997fFJfiHvHGAiEG9u7rPKvAP3OOJ8mofw+eKE9Qls+xTV2SA54K7CD5NBTnt7xso7vEw2S+gqCWykmbhhXjZ4W+Nt8eCSfANeZ0MCrlDoT7xoJBFtp/0jtOyi4ZvcaH4pPEMtyilzZo+iOqgUHyS9Dy4TTRuaBd6AztNNExjuNXz0kXys9j8SbiBm81nSFZeofgkSOF2hzIqr559/C/rkxV0J3C70hGVlX18B2CyQ6WXP9PeeLJuOcDIApTuCsQH2NZQaebsQfKnQW2U+mDYhii9FYgP4D3Z5vBKy5kHM2mcrqrGgV18ad22ugfeDnXVcUlPhKH6JraJTwZfbfKg5J7v/339F121K+ftP6HewTdVlPpw0Rc81x1oWaJ+klnMn8+gJIVLUhfPuSMPyDaQi1Bi50/xTY4ae7CASwbD+g7P1CIg2eVs6nPxSVRVX18/ITityaqqZ8IcyFHeya35vx0bn2zqlEG55s0OkqAFSkkO7jvoelp8zlztZWvI5/dDVNonIzjIz4w4NS0+64dMsq8OWPD6VL3BMyhTfkcWNzi8du0eLYKVaEh5ENGdlIN614YrZreHa9SB0/KQ5t27qhY8ugXcXlAyPuQ9ygx6BUtZgsIIpBZ7kZ3RqHgpCgtzp1qWw8b02N+cJY4cgUt3rSEqUesIod1p4UHNR7MJVJ+5M8a2lqvQBWmMzHrPxP/huorojEMA499k2uKfl/vqImJMD6DQqOY5AxDVUgZNYDyCVIB4Q1kJPghd5iLPVuelSlm2S9B0UBdkQCI5vL7ZdiIgntg16r5NfFzyjYw8AXkxR51yNXekfTY/vtsCjT9D09KnycldOTXOLj1uDRp58fmD0Y/R07Lb1kZw1mkp68pczclngB/Ai0KkTYXnp6s2d4T1RY4Evr4Z1uDUhOqVE9H87+Ey50jnouzssJXq692BU++y4R/YyXWZ+KyBKokgMhvQSG9rAd/sylwhvHD3nxd1z9Ogqt/zN5HLRquR/XsM5zo0/1ylGgoDEFb6lPfi+3f+JWPggGlO8S3EMl9mZoI5+rEoNkbeoXIx7On+2xjITFwYLbglmqc4WnFhaJ9hWkXbBztH4/TtGNvcK/7xAiaZPqHP56ALlpy23m88ceGJXKQlYsIsZ+tSqq+Zg4jVo/KWDjx6fkeDx2v/S575d8AvYCk1OmDH8iWHI0uxoS+Cn1AhW/HbelecMfs8a3/hRcow98DCp9NMq4sh5JvKSkjZnfA7WFoazTUNMXmIId92x77GiBJRiJVihRiCEr+DDXpMfmUfSlZgp0cDKIiOuG9chbrzQmWwhOKcOluLssMMi8wjqMANDiiUY+6paGJZiM1OMNvATZ5QmHrM0uy28NH8LrclLxJahA9Gb7PcA5ARHQo+XMa9FPN/tWtn28nCQACAR5JiAZGlaGupFhf0R61iN2077/9c/03JYBvXAN70u/V4ZpJDJqufpbWG0n3JPsRRM0trDiWjLSX2uOSQxjehbLU2/i7/zBXjg0PZuk38vQgw6LSQQdlClAyFoEkdU7pr2UFjmLs8KBsT01I8BmFVYQamj98cg9LaYGbFoGRPnhh3lmTnRdeQpaET6k4quXrBngUlW2si1ifVCB0z9TnsEMz0tvtoFzcYccghY1MG8d3eJZk2fAVFj5iZMOoDX3orRG7p96QGamjcJSBYHRRcWxafxA+ghM0w8wZCOkDhqi+NT5JPUMEHstrDVkjcsSw+6RigwnSlJ1R9DQUtsXPf329eF1RYvvSMch0jaa3GP9vvtXI/T0FFrS6dAWwX89xoZHIaNQ3bSJBEoMLQpefQ7FHDnyg+ANw5KNyCCrshn4OC+r74AOkMhS+1DKgtMw6ERy15fMm3+gYqniiDDYec+UYaX1hf5Y5ZVRjU2wMT8kYbSXwy8jDzXlQGvRS2vCaLPXWHXkBoSmU5Pwf5BmxLw9l3Q+t9tjv1lmJF6kieBZDxXRi+zKWpN8T/aqDC7J35uosGkcvVMqCZqbmEE4zjglbTfHJmbetm9ULrgpobFP7xc/b8+ieoedfOWxY/07yk6KFFJWcEx6LNtWeCouDqrIl+vqAuUDRvoJBwONZH1m+gzPBRcGtwLJ9uPlSZExTaXTjSlC6P1N1rVJPeT1za9UEJTfRCzz4lPr5AIcb6Sfsfir+woBjWAEliHogvedeqjN1oKOjdI+NfQ4HWHgratVlZfFIbIHFeDm9tnqFoURPJ4Kmy+CRwkCwiXlX/E2uDOU7IYItRWnwyjTFHD1lF/U+MIebVl7yi9pOlh3ne12s18YmVaLjFmUTTfgXxSeCjBMWvwNTBHZ6hGuZ9fJn2kzTyLtN+YvZ93HYDVQtWHgrxEi6ABbfDdhPR631YcDkphz9/DvgPuwIxuK2ws0UAAAAASUVORK5CYII="/>
+                  </defs>
+                </svg>
+                <a href="tel:+38124225133" class="footer__card-text footer__card-link">+381 (0) 24 225 133</a>
+              </div>
+              <div class="footer__card">
+                <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M33.9122 4.45555C33.7589 3.68351 33.4166 2.97702 32.9386 2.39337C32.8378 2.2662 32.7324 2.15232 32.6183 2.03843C31.7713 1.18723 30.5825 0.65625 29.2838 0.65625H4.71624C3.41753 0.65625 2.23298 1.18723 1.38198 2.03843C1.26809 2.15232 1.16277 2.2662 1.0617 2.39337C0.583379 2.97695 0.241055 3.68351 0.0920391 4.45555C0.0308125 4.75352 0 5.06144 0 5.37275V22.6273C0 23.2892 0.140383 23.9255 0.390734 24.5001C0.622957 25.0487 0.965348 25.545 1.38191 25.9611C1.4875 26.0665 1.59236 26.1633 1.70677 26.2596C2.52264 26.9353 3.57578 27.3433 4.71624 27.3433H29.2838C30.4246 27.3433 31.4823 26.9353 32.2935 26.2553C32.4076 26.1633 32.513 26.0665 32.6183 25.9611C33.0347 25.545 33.377 25.0487 33.614 24.5001V24.4959C33.8643 23.9213 33.9999 23.2892 33.9999 22.6274V5.37275C34 5.06144 33.9697 4.75352 33.9122 4.45555ZM3.08849 3.74474C3.50984 3.32386 4.07568 3.06905 4.71624 3.06905H29.2838C29.9243 3.06905 30.4951 3.32386 30.9115 3.74474C30.986 3.81971 31.0562 3.90325 31.1182 3.98626L18.2415 15.2086C17.8864 15.5198 17.4477 15.6736 17 15.6736C16.5568 15.6736 16.1184 15.5198 15.7585 15.2086L2.88681 3.98148C2.94379 3.89847 3.01398 3.81971 3.08849 3.74474ZM2.4128 22.6273V6.47829L11.7312 14.6074L2.41752 22.7279C2.4128 22.6971 2.4128 22.6624 2.4128 22.6273ZM29.2838 24.9301H4.71624C4.29914 24.9301 3.90887 24.8204 3.57578 24.6278L13.4024 16.0641L14.3198 16.8622C15.0876 17.5293 16.0483 17.8672 17 17.8672C17.9566 17.8672 18.9173 17.5293 19.6849 16.8622L20.6019 16.0641L30.4247 24.6278C30.0911 24.8204 29.7009 24.9301 29.2838 24.9301ZM31.5872 22.6273C31.5872 22.6624 31.5872 22.6971 31.5827 22.7279L22.2691 14.6121L31.5872 6.4826V22.6273Z" fill="white"/>
+                </svg>
+                <a href="mailto:pph@podrumpalic.rs" class="footer__card-text footer__card-link">pph@podrumpalic.rs</a>
+              </div>
+            </div>
+            <div class="footer__bot">
+              <h4 class="h4 footer__bot-title langchange" data-key="footerHeading">Write to us</h4>
+              <p class="footer__bot-text langchange" data-key="footerDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur magnam eaque accusantium. Recusandae, inventore omnis!</p>
+              <div class="footer__form">
+                <form action="https://formsubmit.co/pph@podrumpalic.rs" id="form" class="topBefore footer__form-item" method="POST">
+                  <input id="name" name="fullName" class="form__input" type="text" placeholder="NAME" required />
+                  <input id="email" name="email" class="form__input" type="text" placeholder="E-MAIL" required />
+                  <textarea id="message" name="textarea" class="form__textarea" placeholder="MESSAGE" required></textarea>
+                  <button type="submit" class="form__submit-btn ">
+                    <span class="langchange" data-key="footerSend">SEND!</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="none"><path stroke="#fff" class="form__submit-btn-mail" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 3.00005 8.2 7.65c1.0667.8 2.5333.8 3.6 0L18 3"/><path stroke="#fff" stroke-linecap="round" stroke-width="2" d="M17 1H3c-1.10457 0-2 .89543-2 2v10c0 1.1046.89543 2 2 2h14c1.1046 0 2-.8954 2-2V3c0-1.10457-.8954-2-2-2Z"/></svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="footer__outro">
+            <p class="langchange" data-key="footerOutro">© Podrum Palić Hladnjaca. All right reserved. </p>
+            <p>Authored by <a href="">Petar Purac</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="panels js-panels">
+    <!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class="pph-logo-panel js-panel-svg" version="1.1" id="Layer_1-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 448 512" style="enable-background:new 0 0 448 512;" xml:space="preserve" width="448" height="512">
+<style type="text/css">
+  .st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<path class="st0 svg-elem svg-elem-1" d="M292,88.5c-1.2,1.9-3.6,0-2.8,1c0.4,0.4,0,1.4-0.8,2.3c-2.1,2.8-2.2-1.4-4.1-0.5c-0.4,0.5-0.1,1.2,0.7,1.8
+  c2.8,1.2-1.9,2-0.7,3.6c1.6,1.2,2.4-3.5,3.6-0.7c1.2,1.9,3,0.2,1.2-1c-2.6-0.9,1.6-4.3,2.8-2.9c0.8,0.6,0.8,0.6,0.1-0.3
+  c-0.7-0.8-0.4-1.8,0.7-3C294.9,86.3,293.5,86.7,292,88.5z M280.9,99.7c-3.4,3.9,3.8-2.1,1.7-1.7C282.4,98,281.6,98.8,280.9,99.7
+  L280.9,99.7z M286.7,106.7c0.6,8.4,1.1,8.8,1.2,1C288.2,99.9,286.2,98.6,286.7,106.7z M283.5,119.2c-3.3,2.7-3.1,7.2-4.1,10.8
+  c-0.6,2.1-0.4,2.3,0.7,1.2c1.6-1.5,11.3-1.6,14.1-0.1c1.9,1,2,0.9,1.3-0.7C294.3,125.5,289.9,112.2,283.5,119.2z"></path>
+<path class="st0 svg-elem svg-elem-2" d="M280.1,132.6c-6.8,6.9-16.6,40-18.1,42.6c12.3-9.6,34.6-12.6,48.4-2.1c1.4,1.1,2.6,1.6,2.6,1.1
+  c0.2-2.3-9.7-19.6-9.5-20.2c1-1.6-6.6-19-9.2-21C291.1,130.5,283.4,130.3,280.1,132.6z M278,143c-1.3,10.9-3.4,14.4,6,21.8
+  c-4,0.6-8.9,1.5-12.7,3.2c-3.5,1.5-4.3,1.6-4.3,0.5c0-1.2,4.8-14.5,9.9-27.9C278.5,136.6,279,137.7,278,143L278,143z"></path>
+<path class="st0 svg-elem svg-elem-3" d="M281,171c-12.7,1-19.9,9.6-28.7,15.7c-19.7,16.5,3.9,37.4-1.3,28.8c-24.9-34.4,49.4-48.6,69.5-27.3
+  c10.1,8.6,10.7,19.3,2.7,28.2c-0.4-0.9-2.3-9.6-3-7.1c0.8,15.3,9.3,3.5,9.8-6.4c0-5.7-3.2-12-8.3-16.4c-2.3-1.9-5.9-5.1-7.9-7.1
+  C306.8,172.4,291.4,168.8,281,171z"></path>
+<path class="st0 svg-elem svg-elem-4" d="M282,185.6c-15.1,2.4-23.4,6.2-26.1,11.9c-0.9,1.7-0.8,1.8,0.3,0.5c6.3-7.3,16.6-11.1,30.3-11.1
+  c13.3-0.1,22.9,2.8,30.1,9C312.8,188.5,292.4,184.3,282,185.6L282,185.6z"></path>
+<path class="st0 svg-elem svg-elem-5" d="M283.7,190.6c-0.9,0.9-0.7,7.1-0.7,9.1c4.5,0.3,16.2,1,18.8,1.9c2.1,0.6,2.2,0.3,2.2-3.9c0-4.5-0.1-4.6-3.7-5.6
+  C294.6,190.7,284.6,189.8,283.7,190.6L283.7,190.6z M271.5,192.8c-4.4,1.5-5,2.1-5.7,5.2c-1.2,5.5-0.6,6.1,4.4,4.5
+  c4-2,9.8-0.4,10-5.5C280.8,190.6,280.6,190.1,271.5,192.8z M203.7,193.7c2.3,0.8,5.3,2.5,6.5,3.9c8.7,7.2,5.4-3.7,13-2.6
+  c9.8-0.4-6.4-5.3-8.1-0.9c0,0-2.4,2.3-2.4,2.3c-2.7-5.7-7.1-4.2-13.2-4.2C199.5,192.2,203.7,193.7,203.7,193.7z M306.4,196.6
+  c1,2.7-0.4,7,3.4,8.5c2.6,1.2,6.7,4.1,9.2,6.1v-3.3C321.2,204.8,305.8,190.3,306.4,196.6L306.4,196.6z M259.1,200.2
+  c-4.4,4.1-6.1,8.6-7.2,14.1c2.6-2.3,7.8-6.9,9.9-8.5c2.3-1.1,2.9-7.5,1.4-8.8C262.7,197,260.9,198.4,259.1,200.2z M177,211.7
+  c-2,0.2-5.5,7.2-7.7,4.5c-5.5-4.7-9.9-2.4-15.8-0.7c4.5,0.4,10.8,1,14,4c14.7,8.3,1.4-6.5,22-5.7C185.7,212.3,180.1,210.2,177,211.7
+  L177,211.7z M288.5,216.9c-7.9,6.1-5.3,2.2-5.6,24c0.6,32,2.8,90.1,3,78.6c1.2-3.9-4.4-96-0.2-92.3c2.8-3.7,8.7-3.8,11.5-0.2
+  c1.7,2.3,1.9,5.9,2.5,54c0.8,56.7,1.2,54.8,3.3-16.4c0.9-31.2,0.9-40.5-0.1-42.8C300.9,217,294.1,214.7,288.5,216.9L288.5,216.9z
+   M265.5,218.8c-12.6,9-5.7,4.9-3,73.2c2.6,36.2,3,54.3,2.7-5.5c-0.5-52.6-0.3-55.2,3.9-59.1c4.3-3.8,4.6-1.6,6.4,38.6
+  c0.9,20.6,2,42,2.4,47.5c0.8,9.9,0.8,9.9,0.9,2.5c-0.1-1.3-2.3-99.2-5.4-93.7C271.2,219.4,268.5,218.2,265.5,218.8L265.5,218.8z
+   M310.6,223.5c-1.1,0.7-2.7,8.6-0.7,6.6c5.5-3.8,6.2,7.3,5.7,18.9c-0.6,11.3-1.2,53.9-1.5,71.5c1.4-17.5,3.7-50.2,4.8-64
+  C320.9,231,321.1,215,310.6,223.5L310.6,223.5z M253.5,236c3,21.8,4.4,73.3,10.3,94.5C262.1,315.3,253.8,202.6,253.5,236L253.5,236z
+   M307.9,239.1c0.2,19.9-3.1,71.1-2.4,83.8c0.2-0.3,0.9-9.3,1.3-19.9c0.6-12.8,1.3-19.5,2.1-19.8c1.4-0.5,1.5-3.2,0.1-3.2
+  c-1.3,0.2-1.3-11.2,0-11c0.6,0,1-0.7,1-1.5s-0.4-1.5-1-1.5c-1.2,0-1.4-8.7-0.2-9.4C310.1,256.3,308.9,217.3,307.9,239.1L307.9,239.1
+  z"></path>
+<path class="st0 svg-elem svg-elem-6" d="M291,236c-0.2,4,3.2,4,3,0C294.2,232,290.8,232,291,236z M271,238.4c-0.1,1.7,1.8,2.2,2,0.7
+  C273.1,238,271.1,236.3,271,238.4z M291,250c-0.2,4,3.2,4,3,0C294.2,246,290.8,246,291,250z M271,251.5c0,2,2,1.9,2,0
+  C273,249.6,271,249.5,271,251.5z M151,256.8c-3.5,1.1-4.1,2.5-1.8,3.6c2.2,1.1,2.3,1.7,2.6,15.9c0.2,9.6-0.1,14.7-0.8,14.7
+  c-4.1,1.7-9.4,8.7,1.2,7.4c5.7-0.1,6.3-0.3,6.6-2.2c0.9-2.5-3.7-4.5-5.8-5.7c0.3-5.6-0.6-32,2.8-30
+  C161.7,258.4,153.7,256.3,151,256.8L151,256.8z M291,264c-0.2,4,3.2,4,3,0C294.2,260,290.8,260,291,264z M272.2,266
+  c0.1,3.5,1-0.2,0.5-1.3C272.4,264.1,272.2,264.6,272.2,266z M291,279c-0.2,4,3.2,4,3,0C294.2,275,290.8,275,291,279z M272.2,279.5
+  c0,1.6,0.2,2.2,0.5,1.2C273.2,279.2,272.3,275.1,272.2,279.5z M291,293c-0.2,4,3.2,4,3,0C294.2,289,290.8,289,291,293z M272,294
+  c0,3.9,2.1,3.8,2,0C274.1,290.1,272,290.1,272,294z M308,295.5c0,2,2,1.9,2,0C310,293.6,308,293.5,308,295.5z M148.3,301.7
+  c-2.8,0.5-4.6,3-11.8,16.8c-3.1,6-6.3,11.6-6.9,12.4c-0.9,1.2-0.7,1.3,0.9,0.7c7.8-2.9,30.3-3.6,39.5-1.1c3,0.8,5.6,1.5,5.8,1.5
+  c-2.1-4-5.4-8.6-9.7-17.2C158.2,301,159.3,300.7,148.3,301.7L148.3,301.7z M145,311.1c-2.4,9.7-1.6,11.4,6.5,14
+  c3.9,1.3,3.9,1.4-6.5,1.9c-5.8,0.4-10.6,0.5-10.8,0.5c-0.3-0.3,1.7-4.8,6.6-14.4C145.1,305.2,147.1,301.8,145,311.1z M291,307
+  c-0.2,4,3.2,4,3,0C294.2,303,290.8,303,291,307z M273.2,308c0.1,3.5,1-0.2,0.5-1.3C273.4,306.1,273.2,306.6,273.2,308z M308,309.5
+  c-0.1,3.3,2,2,2,0C310,307.5,307.9,306.2,308,309.5z M291,322c-0.2,4,3.2,4,3,0C294.2,318,290.8,318,291,322z M273,322
+  c0,2.6,2.1,2.6,2,0C275.1,319.4,273,319.4,273,322z M173,321.6c0.1,0.8,3.6,6.7,4.5,8.4c13.1-0.6,90.1,1.6,83-1.8
+  c-0.7-1.5-1.5-5.1-1.7-7.2C243.4,321.1,176.5,320.7,173,321.6L173,321.6z M208.4,327.9c0.6,2-5.7-0.8-2.1-0.9
+  C207.2,327,208.1,327.4,208.4,327.9L208.4,327.9z M222.5,328c-5.2,2.6-8.2-1.2-1.7-0.9C223.8,327.1,224.1,327.3,222.5,328z
+   M232,327.4c0,0.4-3,1.9-3,0.6C228.8,326.8,231.8,326.8,232,327.4z M308,324.2c-0.3,4.5,3.6-2.9,1-2.2C308.5,322,308,323,308,324.2z
+   M313.3,326c0.1,6.4,0.9-0.6,0.4-2.3C313.5,322.5,313.3,323.5,313.3,326z M279.2,328c0.1,3.5,1-0.2,0.5-1.3
+  C279.4,326.1,279.2,326.6,279.2,328z M279.2,333c0.1,3.5,1-0.2,0.5-1.3C279.4,331.1,279.2,331.6,279.2,333z"></path>
+<path class="st0 svg-elem svg-elem-7" d="M139.5,332.6c-4.8,1.4-11.8,1.6-13,8.4c-7.3,15.9-19.4,13.5,6.6,8.9c15.1-2.2,50.9,0.6,54.3,4.2
+  c1.2,1.2-0.6,1.1-16.3-1.1c-6.2-1.4-57.2-1.4-52.5,5.1c1.3,1.4,1.6,6.2,2.1,29.3c0.5,20.6,0.3,27.6-0.5,27.6c-0.7,0-1.2,0.6-1.2,1.2
+  c0,0.7-1.1,2-2.3,2.9c-10.5,3.5-64.9,4.1-69.2,6.4c-19.7-1,507,4,275.8-4.5c-0.6-13.7-2-41.3-2.6-55c-8.3,0-24.9,0.2-33.2,0.3
+  c5.5,0.4,27.6,1.3,29.2,2.1c0.4,0.4,5.3,36.1,5.3,38.8c-0.4,1.1-8.9,0.7-11,0.8c0.2,2.8-0.8,12.6,1.8,12.3c2.4,0.7-3,0.6-3.5,0.7
+  c-0.1-5.5,0.6-21.2-2-22.8c-10.6-13.8-32.2-6.9-30.1,12.9c-0.4,9.4-0.5,9.9-2.5,9.8c-1.7-0.1-1.8-0.2-0.4-0.6
+  c2.4,0.3,1.5-9.6,1.7-12.3h-13c-0.2-2.3,0-29.7-1-18.5c-1.1,7.7-0.4-22.5-0.5-25c12-0.2,57.8-0.7,61.8-1.9c1.9-0.9,2.3-2.6,0.7-2.6
+  c-1.3,0-7.1-4-9-5.3l-0.2-11.1c-0.1-11-0.2-10.7-1.4,3.1c-0.5,6.8-0.7,7.2-2.5,6.2c-1.5-0.8-3.2-0.4-7.5,1.7
+  c-6,3.8-16.9,2.4-22.5-0.5c-5-3.1-5.1-2.8-8.9,2.4c-3,4.4-6.9,6.4-5.6,2.9c0.9-2.6-5.4,3.1-6.2,3.6c-1.4-2.1-17.3-17.6-7.2-6.7
+  c0,0,6.5,6.7,6.5,6.7s0.3,7.5,0.3,7.5c0.9,9.2-1.9,10.2-1.8,1.4c0-3.3-0.5-7-1.1-8.2c-1.4-2.8-15.8-17.2-20.4-21.7
+  c0,0-31.2,0-31.2,0l-8,7.5c-8.3,7.7-12,10-6.7,4.3c1.6-1.9,1.9-2.4,0.6-1.4c-2.2,1.9-2.3,1.9-5-0.7c-1.6-1.5-3.4-2.7-4.2-2.7
+  c-0.7,0-1-0.3-0.7-0.6c0.6-1.7-2.7-5-2.3-7.2c0,0,0-2.3,0-2.3c12.9-0.3,53.4,2.3,58.5,1.1c0.4-1.2,27.5-0.6,27-2
+  c4.7-1.5-95.4-0.4-88.9-2.1c1.3-1.9-4.2,0.9-3.2-0.7C169.6,331.1,144.4,332.8,139.5,332.6L139.5,332.6z M140,337
+  c0.2,2.8,6.6,5.5,9.5,6.9c-4.9-0.1-14,0.1-17.8,1.2c-2.2,0.6-4.1,0.8-4.4,0.5c-0.4-2.4,2.1-10.1,5.8-10.3
+  C137.7,333.7,139.3,334.1,140,337L140,337z M176.7,340c0.5,1.9-1.8,2.8-1.2,1c0.3-0.6-0.4-1-1.7-1.1c-5.1,0.1,2.7-1.4,2.7-1.8
+  C176.6,338,176.6,338.9,176.7,340z M235.2,347.1c28.1,12,22.2,41.1,17.5,73.9h-61.4c-2.7-13.6-5.7-44.4-4.7-51
+  C189.9,350.9,215.9,338.6,235.2,347.1z M177.5,346c-4.1,1.5,3.2,0.5,1.7,1.7c-1.8,0.7-4.4-0.5-3.7-1.7
+  C175.8,344.9,181,344.6,177.5,346z M153.3,356.7c0.6,1-4.1,8.3-5.3,8.3c-0.5,0-2.1-1.7-3.4-3.7c-1.9-2.8-2.2-3.9-1.3-4.5
+  C144.8,355.8,152.7,355.8,153.3,356.7z M164.9,356.6c1.7,0.4,3.1,1.1,3.1,1.7c0,1.6-4.4,7.7-5.5,7.7c-1.3,0-5.5-6.5-5.5-8.5
+  C157,355.9,159.6,355.6,164.9,356.6L164.9,356.6z M140,357.4c0,0.7-5.2,9.6-5.6,9.6c-0.4-0.1-6.9-8.9-4.2-9.1
+  C131.5,357.1,140,356.6,140,357.4z M177.8,358c1.5,0,1.5,2.1,0,5.5c-1.5,3.3-2.4,3.2-4.3-0.5C169.6,355.7,174,357.4,177.8,358z
+   M128,358.5c0,1.1-3.4,7.5-4,7.5c-0.7,0-3-4.5-3-6C121.3,358.4,128.9,357.7,128,358.5z M184.4,359.6c1.8,0.7,2.1,3.2,0.6,5.4
+  C182.7,368.7,177.6,355.9,184.4,359.6z M175,369.9c2.3,1.1,2.3,1.1-0.9,0.6c-1.8-0.3-12.4-0.6-23.5-0.7c-13.4-0.1-18.4-0.4-15.1-0.9
+  C142.6,367.9,172,368.6,175,369.9z M127.7,392.6c1.5-9.7-0.2-18.2,3.7-16c1.4,0.5,1.6,2.9,1.6,19.5V415h-8
+  c0.1-9.8,0.3-29.7,0.4-39.5c0.3,8.2,0.9,24.8,1.1,33C126.5,408.5,127.7,392.6,127.7,392.6z M154,396.6c0,15.7-0.2,18.4-1.5,18.4
+  s-1.5-2.8-1.5-19.6c0-17.4,0.2-19.5,1.5-18.4C153.7,378,154,381.5,154,396.6z M165.7,377.8l4.8-0.3l0.3,17.9
+  c0.3,20.2-0.1,21.6-6.5,21.6c-6.1,0-6.3-0.7-6.3-22.1c0-16.7,0.2-19,1.5-17.9C160.3,377.7,162.9,378,165.7,377.8z M177.3,382
+  l0.4,4.5c0.1-2.1-0.3-11.1,1.8-10.5c2.6-2.5,0.8,32.3,1,38.5c-1.4,0.2-4.1,0.5-5.5,0.6C175.3,410,173.9,361.6,177.3,382z M146.8,395
+  c0.2,19.6,0,25.5-7.8,20.7c-2.7,1.6-1.9-31.7-2-38.7c2.4,0.1,7.1,0.4,9.5,0.6C146.5,377.6,146.8,395,146.8,395z M298.4,396
+  c9.5,0,4.2,42.8,3.6,15.5c0-8.8-0.2-9.8-2.5-12c-2.4-2.5-7.8-3.4-8.9-1.7c-0.3,0.5,0.8,0.6,2.4,0.4c7,0.6,8.1,3.6,8,13.8
+  c0,7.3-0.3,9-1.5,9s-1.5-1.7-1.5-8.8c0.5-8.4-2.9-17.5-5.9-7.7c0.3-10.5-6.4,0-5.1,8.2c0,6.7-0.3,8.3-1.5,8.3s-1.5-1.7-1.5-9.3
+  C283.7,397.8,288,393.3,298.4,396L298.4,396z M293.1,420.3c-0.8,0.8-1.1-0.4-1.1-4C292.4,399.6,295.2,417.4,293.1,420.3L293.1,420.3
+  z M269.3,418.7c-0.7,0.2-1.9,0.2-2.5,0C265,418,270.9,418,269.3,418.7z M319.3,418.7c-0.7,0.2-1.9,0.2-2.5,0
+  C315,418,320.9,418,319.3,418.7z"></path>
+<path class="st0 svg-elem svg-elem-8" d="M213.5,333c-45.5,0.6-43.3,1,10.3,1.6C275.7,336,284,331,213.5,333L213.5,333z M291,336c-0.2,4,3.2,4,3,0
+  C294.2,332,290.8,332,291,336z M273,336.5c0,3.3,2.1,3.2,2,0C275.1,333.3,273,333.2,273,336.5z M308,338c0,2.6,2.1,2.6,2,0
+  C310.1,335.4,308,335.4,308,338z M249.7,342l-5.8,0.5c2.7,2.5,14.5,15.5,15.7,13.4c0.8-0.7,1.3-0.6,1.7,0.3c2.2,2.6,2.8-3.2,2.5-7.8
+  c-0.3-6.7-0.4-6.9-3-7.1c-1.5-0.1-3,0.3-3.4,0.9c-0.4,0.5-0.9,0.6-1.3,0.2C255.8,341.9,252.9,341.7,249.7,342L249.7,342z M182,342.8
+  c-0.4,0.4,4.6,5.7,5,4.9c0-0.4,1.1-0.2,2.4,0.3c2.6,1.8,6.8-3.9,9-6C195.4,342,182.6,341.8,182,342.8z M190.5,346
+  c0.7,1.5-1.6,1.1-1.5,0C189,344.4,189.9,344.9,190.5,346z M243.2,346c0.7,1.1,1.9,2.2,2.8,2.5C247.9,348.8,239.6,340.7,243.2,346
+  L243.2,346z M266.3,374.5c0,3.8,0.2,5.3,0.4,3.2C267.2,374.9,266.4,364.4,266.3,374.5z M263.2,375.5c0,1.6,0.2,2.2,0.5,1.2
+  C264.2,375.2,263.3,371.1,263.2,375.5z"></path>
+</svg>
+<svg class="pph-signature" version="1.1" id="Layer_1-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 820 200" style="enable-background:new 0 0 820 200;" xml:space="preserve" width="820" height="200">
+  <style type="text/css">
+    .st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+  </style>
+  <path class="st0 svg-elem2" d="M458.9,50.7c-14.3,15.8-31.7,61.6-29.4,77.3c0.9,5.8,2.1,8,4.4,8c2.4,0,4-2.5,9-14.4
+    c6.4-15.4,11.4-20.6,16.7-17.1c3,1.9,3,3.8,0.2,14.8c-2.1,8-2.1,9-0.8,11.5c3.4,6,13.1,4.8,20.5-2.6c4.2-4.2,9.7-13.1,8.8-14.5
+    c-0.3-0.5-1.8,1.3-3.3,4c-3.3,5.8-10.8,13-14.6,13.9c-2,0.5-3.1,0.2-4.1-1.1c-1.8-2.5-1.7-3.4,1.2-11.7c4.8-13.8,2.4-22.4-6.4-22.2
+    c-7.4,0.2-15.1,8.6-20.8,22.8c-1.4,3.4-2.7,6.3-3,6.6c-1.2,1.1,0.6-16.8,2.1-21.5c1.2-3.6,2.6-5.7,5.1-7.5
+    c7.9-5.6,19.3-23.7,23-36.4C471,48.7,466,42.9,458.9,50.7L458.9,50.7z M464.6,59.2c-1.9,9.7-18.6,37.1-21.1,34.6
+    c-1.5-1.4,9.8-24.3,16.2-33C463.8,55.2,465.5,54.6,464.6,59.2z M340.5,88c-0.3,0.6-1.5,7-2.5,14.3c-2.5,17.9-5.3,29.9-10.1,44.4
+    c-4.4,13.3-4.7,17.6-1.2,18.1c1.8,0.3,2.5-0.6,4.3-5.5c2-5.2,9.6-32.7,11.4-41c1.1-4.9,8-14.9,12.7-18.3c4.1-2.9,9-3.9,11.5-2.2
+    c3.5,2.3,4.3,9.3,1.9,16.3c-3.2,8.9-10.1,15.2-19.8,17.9c-5.7,1.6-6,1.8-3.4,2.5c14.3,3.8,31.6-12.2,31.7-29.2
+    c0-5.6-0.3-6.6-3.1-9.8c-2.8-3.2-3.6-3.5-8.4-3.5c-6.4,0-11.7,3.4-17.1,11.2c-2.4,3.5-3.4,4.5-3,2.8c1.1-4.4,1.7-15.5,0.9-16.6
+    C345.1,87.7,341.3,86.8,340.5,88L340.5,88z M387.5,88c-0.3,0.6-1.5,7-2.5,14.3c-2.5,17.9-5.3,29.9-10.1,44.4
+    c-4.4,13.3-4.7,17.6-1.2,18.1c1.8,0.3,2.5-0.6,4.3-5.5c2-5.2,9.6-32.7,11.4-41c1.1-4.9,8-14.9,12.7-18.3c4.1-2.9,9-3.9,11.5-2.2
+    c3.5,2.3,4.3,9.3,1.9,16.3c-3.2,8.9-10.1,15.2-19.8,17.9c-5.7,1.6-6,1.8-3.4,2.5c14.3,3.8,31.6-12.2,31.7-29.2
+    c0-5.6-0.3-6.6-3.1-9.8c-2.8-3.2-3.6-3.5-8.4-3.5c-6.4,0-11.7,3.4-17.1,11.2c-2.4,3.5-3.4,4.5-3,2.8c1.1-4.4,1.7-15.5,0.9-16.6
+    C392.1,87.7,388.3,86.8,387.5,88L387.5,88z"></path>
+  </svg>
+  </div>
+  </body>
+</html>
